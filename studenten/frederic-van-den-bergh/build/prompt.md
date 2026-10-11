@@ -29,6 +29,7 @@
 - [3] Kies alleen uit de lijsten hierboven.
 - [5+2] Is het bericht te vaag om soort of dringendheid te bepalen, schrijf dan "onzeker". Een gok is erger dan "onzeker": de baas kijkt zulke meldingen zelf na.
 - [2] Twijfel je tussen twee niveaus van dringendheid en gaat het om veiligheid (remmen, banden, stuur, lucht- of olielekken), kies dan het strengste niveau of "onzeker". Een gevaarlijk probleem mag nooit als "kan wachten" gelabeld worden, want een chauffeur met een remprobleem of een lekkende band rijdt gewoon door tot iemand zegt dat hij moet stoppen, en de baas leest een melding soms pas uren later. In die uren kan er een ongeval gebeuren met de chauffeur, andere weggebruikers en de lading, en dat kost veel meer dan een wagen die een dag stilstaat. Bij twijfel is te streng dus altijd beter dan te mild.
+- [2] Uitzondering op de regel hierboven: hoort de chauffeur alleen lucht blazen onder de wagen, en zegt hij niet dat de druk wegvalt of dat hij niet meer kan rijden, kies dan "snel nakijken" en niet het strengste niveau, want hij kan nog rijden. Verliest de wagen wel zijn druk of kan hij niet meer rijden, dan blijft het strengste niveau gelden.
 - [3] Geef één korte reden voor de hele melding (precies één zin) op basis van wat er in het bericht staat.
 
 ## Uitvoer
