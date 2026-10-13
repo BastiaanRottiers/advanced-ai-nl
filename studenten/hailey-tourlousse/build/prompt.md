@@ -25,6 +25,7 @@ Choose exactly one reply label:
 - "Unsure": you cannot tell.
 
 Rules:
+- If a review mentions several topics, the complaint wins: choose the topic of the complaint or remark. If there is only praise, choose "General". Because the topic decides which department gets the review, and only a complaint needs action.
 - "The restaurant" means Brasserie Carrousel, because otherwise all those reviews would be categorized as "Unsure": a brasserie is not the same as a restaurant, but the guests don't care about that.
 - Reviews can be in Dutch, French, English or German.
 - Do not invent facts that are not in the review.
@@ -35,21 +36,21 @@ Example 1
 Score: 10
 Text: Fantastisch😄
 Het is hier altijd zoals thuiskomen😃vanaf aankomst voel je je hier altijd welkom Al het personeel is zo ingenomen met jou en helpen jou verder, niets is teveel Ook het ontbijt is voortreffelijk, keuze is erg uitgebreid Kortom…het verblijf is elke keer TOP!!!👍👍👍
-Answer: {"topic": "[TO FILL IN]", "reply": "[TO FILL IN]", "reason": "[TO FILL IN]"}
+Answer: {"topic": "General", "reply": "No reply needed", "reason": "It's a positive review."}
 
 Example 2
 Score: 10
 Text: Relaxing stay
 We booked a 3 persons room and we received a two bedroom apartment, which made our stay even better. The personnel are very nice and friendly, the locations is just perfect (3 minutes walking from the sea), and the city was a positive surprise for us.
 The hotel restaurant is a brasserie and is quite expensive. Nevertheless, around there are many food options and we prefers to eat outside
-Answer: {"topic": "[TO FILL IN]", "reply": "[TO FILL IN]", "reason": "[TO FILL IN]"}
+Answer: {"topic": "Price and value", "reply": "Reply this week", "reason": "A negative comment about the price of the brasserie, but not urgent. Something like rotten fish would need a reply within 24 hours."}
 
 Example 3
 Score: 8,0
 Text: Perfect for a short stay
 The location and the staff were amazing. Super friendly and helpful. The room was decent, clean and had everything I expected for a short stay. The location is right next to the beach and there are plenty of shops and cafe's near by
 The parking is not on-site and is shared with the public. It seemed secure and it is a short distance from the hotel. You need to get a parking card at check in and then move your vehicle to the underground parking facility
-Answer: {"topic": "[TO FILL IN]", "reply": "[TO FILL IN]", "reason": "[TO FILL IN]"}
+Answer: {"topic": "Parking", "reply": "No reply needed", "reason": "It's a positive review."}
 
 Format:
 {"topic": "...", "reply": "...", "reason": "..."}

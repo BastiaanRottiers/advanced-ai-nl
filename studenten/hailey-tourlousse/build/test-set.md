@@ -70,16 +70,16 @@ Reply: Reply within 24 hours, Reply this week, No reply needed, Unsure.
 
 | ID | Correct topic | Correct reply | Why | Run 1 | Run 2 |
 |---|---|---|---|---|---|
-| T01 | | | | | |
-| T02 | | | | | |
-| T03 | | | | | |
-| T04 | | | | | |
-| T05 | | | | | |
-| T06 | | | | | |
-| T07 | | | | | |
-| T08 | | | | | |
-| T09 | | | | | |
-| T10 | | | | | |
+| T01 | Room | Reply this week | Not urgent; they seem content about the rest. | | |
+| T02 | Price and value | Reply this week | The wellness is expensive; we could reply with an offer that is displayed on our website. | | |
+| T03 | Price and value | Reply within 24 hours | The main thing is that the hotel is expensive; she's also disappointed about the room and breakfast. | | |
+| T04 | Service and staff | Reply within 24 hours | A very negative score (under 5), so very urgent. | | |
+| T05 | Noise | Reply within 24 hours | Even with a score of 8, they are not happy and do not recommend the room, which is not good. | | |
+| T06 | Cleanliness | Reply within 24 hours | A nicotine smell in the room is always bad, and the score is 2/10, which is really bad. | | |
+| T07 | General | No reply needed | They are happy. | | |
+| T08 | Service and staff | Reply this week | Reception handled it kindly, and mild words like "not very attentive" show it's not that bad. | | |
+| T09 | Price and value | Reply this week | The restaurant, room and breakfast are called expensive, so not positive; an expensive hotel also needs an answer. | | |
+| T10 | Room | Reply this week | Hair in the fridge, ugly view and too few sockets are all about the room; they ask a question, so it needs a reply this week. | | |
 
 Result: __ out of __ correct (n = __, __ run).
 
