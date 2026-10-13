@@ -1,4 +1,4 @@
-# v1 — prompt
+# v2 — prompt
 
 Plak dit in een nieuw gesprek. Vervang de beschrijving onderaan.
 
@@ -14,7 +14,7 @@ Veld "soort_werk", kies precies één:
 Veld "interessant", kies precies één:
 - "ja": er is afbraak of grondwerk, en het werk duurt langer dan één dag. Er is geen bovengrens, want het bedrijf doet ook projecten waar het een jaar aan werkt.
 - "nee": er is geen afbraak en geen grondwerk, of het werk duurt ongeveer één dag, zoals een tuinhuis afbreken of een oprit uitgraven. Want zulke kleine werken neemt het bedrijf alleen aan in rustige periodes.
-- "onzeker": de beschrijving geeft te weinig informatie om te kiezen.
+- "onzeker": alleen als er iets belangrijks niet in de beschrijving staat, zoals de grootte van het werk. Niet omdat een woord technisch of onbekend is. Want als je te vaak "onzeker" zegt, moet iemand alle aanvragen toch zelf nalezen.
 
 Regels:
 - Kies "onzeker" liever dan te gokken.
