@@ -1,0 +1,51 @@
+1 announcement found
+Terug naar de inhoud
+Dashboard
+Vincent Pots
+Account
+Dashboard
+Cursussen
+Groepen
+Kalender
+Geschiedenis
+Mijn Dinar
+Study Hub
+10
+Help
+Advanced AI in business (2026-27 S1)
+Aankondigingen
+semester 1 2026-27
+Startpagina
+IgniteAI Search
+Aankondigingen
+Opdrachten
+Discussies
+Cijfers
+Personen
+Pagina's
+Bestanden
+Syllabus
+Modules
+Samenwerkingen
+Notitieboek
+Chat
+Office 365
+Portfolium
+E-syllabus
+ECTS-fiche
+Assessment
+Panopto Video
+Microsoft Education
+StrikePlagiarism Plagiarism Review Submissions
+Alle(n)
+Zoeken...
+
+Externe feeds
+AC
+[DEADLINE VERLENGD] Je eerste post: tegen vrijdag 2 oktober
+Alle secties
+Woensdag diende je je profiel in. Voor de meesten was dat de eerste keer in een terminal. Nu nog je eerste post. Wat: een halve pagina, drie vragen. Wat deed je tot nu toe met AI? Wat verraste je woensdag? Welke richting wil je uit? Hoe: Zoek je map studenten/jouw-naam in Finder (Mac) of Verkenner (Windows). Open daar een terminal. Mac: sleep de map op het Terminal-icoon in het Dock. Windows: rechtsklik op de map → "Openen in Terminal". Typ claude of codex. Vraagt Claude "Allow external CLAUDE.md file imports?", kies dan Yes. Dat is het regelbestand van de cursus. Plak deze regel en volg: Lees https://raw.githubusercontent.com/alexandernacho/advanced-ai-nl/main/.claude/skills/week/SKILL.md. Ik wil week 1 indienen. Eén stap per keer, in het Nederlands. Lukt stap 1 of 2 niet? Geen Terminal-icoon in je Dock, geen "Openen in Terminal", of je vindt je map niet? Open een terminal zoals woensdag. Mac: Cmd+Spatie, typ Terminal, Enter. Windows: Start-knop, typ Terminal, Enter. Start je tool en plak dezelfde regel. Je AI zoekt je map en geeft je het commando om er te geraken. Je AI stelt je de drie vragen en zet je post in je pull request. De antwoorden zijn van jou. De AI schrijft op wat jij zegt. Deze week telt de inhoud niet. Dat het lukt, telt wel. *Tegen vrijdag 2 oktober, 23:59. Zit je vast? Stuur me een screenshot van je foutmelding via [e-mailadres docent]
+ Reageren
+Geplaatst op:
+
+24 sep 2026, 17:20
