@@ -20,3 +20,24 @@ Resultaat T01–T05 (v1), run 1 en 2: 8 op 10 juist (n = 5, 2 runs). Fout: T05, 
 Resultaat T06–T10 (v2), run 1: 4 op 5 juist (n = 5, 1 run). Fout: T07, F1, 1×.
 
 Na de wijziging (v2): T05 opnieuw gedraaid → `negeren`, juist (n = 1, 1 run).
+
+## Alle tien met v2
+
+Dezelfde prompt (v2) voor alle tien, elke input in een nieuw tijdelijk gesprek. T06–T10 komen uit Run 1 hierboven. T01–T05 opnieuw gedraaid op 13 oktober.
+
+| ID | Juiste antwoord | v2, run 1 | Fout |
+|---|---|---|---|
+| T01 | info | info | |
+| T02 | negeren | negeren | |
+| T03 | later | later | |
+| T04 | later | later | |
+| T05 | negeren | negeren | |
+| T06 | negeren | negeren | |
+| T07 | dringend | later | F1 |
+| T08 | later | later | |
+| T09 | onzeker | onzeker | |
+| T10 | negeren | negeren | |
+
+Resultaat v2: 9 op 10 juist (n = 10, 1 run). Fout: T07, F1.
+
+T05 met v2 twee keer gedraaid: twee keer `negeren`.
