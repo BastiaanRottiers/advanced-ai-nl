@@ -1,4 +1,4 @@
-# v1 — prompt
+# v3 — prompt
 
 Plak dit in een nieuw gesprek. Vervang de advertentie onderaan.
 
@@ -16,9 +16,14 @@ Velden:
   - "gedragen": duidelijke gebruikssporen, krassen.
   - "beschadigd": defect, kapot onderdeel, werkt niet goed.
 - "doos_papieren": precies één van "full set", "enkel doos", "enkel papieren", "geen", "onbekend".
-  - "onbekend": de advertentie zegt niets over doos of papieren.
+  - "full set": een doos én een garantiekaart of certificaat worden apart genoemd.
+  - "enkel doos": een doos wordt apart genoemd, maar geen garantiekaart of certificaat.
+  - "enkel papieren": een garantiekaart of certificaat wordt apart genoemd, maar geen doos.
+  - "geen": de advertentie zegt letterlijk dat er geen doos en geen papieren bij zijn (bv. "zonder originele doos, zonder originele papieren").
+  - "onbekend": de advertentie noemt geen doos, garantiekaart of certificaat apart, en zegt ook niet dat ze ontbreken.
   - "papieren" betekent garantiekaart of certificaat. Een factuur alleen telt niet als papieren.
   - Een algemene vermelding van "papieren" (bv. "Papiere", "papiers", "Unterlagen"), ook in de titel, volstaat niet. Alleen een expliciet genoemde garantiekaart of certificaat telt als papieren.
+  - "Full set" of "Full-Set" alleen telt niet als doos of papieren, want het zegt niet welke onderdelen erbij zitten. Tel alleen een doos, garantiekaart of certificaat die apart genoemd worden.
 - "vraagprijs": het bedrag als getal, zonder punten of munt, bv. 12500.
 - "munt": de munt, bv. "EUR", "CHF", "USD".
 - "verkoper": precies één van "particulier", "handelaar".
@@ -29,6 +34,7 @@ Regels:
 - Staat iets er niet, of is het niet duidelijk? Vul "onbekend" in.
 - Vul nooit iets aan uit eigen kennis. Leid bv. het merk niet af uit het referentienummer, en het bouwjaar niet uit het model.
 - Kies "onbekend" liever dan te gokken.
+- Staan er voor één veld twee verschillende waarden in de advertentie (bv. twee prijzen of twee referentienummers), of kan een waarde ook iets anders betekenen (bv. een aankoopjaar dat geen bouwjaar is)? Vul dan "onbekend" in. Want ik gebruik deze gegevens later om prijzen te vergelijken en koopjes te vinden, en een verkeerde waarde is erger dan een lege.
 
 Formaat:
 {"merk": "...", "model": "...", "referentienummer": "...", "bouwjaar": ..., "staat": "...", "doos_papieren": "...", "vraagprijs": ..., "munt": "...", "verkoper": "...", "servicegeschiedenis": "..."}
