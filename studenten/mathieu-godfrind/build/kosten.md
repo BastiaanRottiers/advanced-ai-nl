@@ -26,9 +26,11 @@ Gemeten op 14 oktober 2026. Prompt v3, input T01 (tote bag). Antwoord: GO, juist
 | Winst per pagina | 4:50 − 2:00 = **2 min 50 s** (170 s) | |
 | Volume | 4 per dag · 20 per week · 80 per maand · **960 per jaar** | geschat; aanname: 5 dagen per week, 12 maanden |
 | Uren gewonnen | 11 min per dag · 57 min per week · 3,8 u per maand · **45 u per jaar** | |
-| Uurkost | **nog in te vullen** | |
+| Uurkost | **13 euro** | aanname: mijn uurloon bij Brand Activators (studentenjob). Een uur nakijken is een uur dat ik daar niet werk. |
+| Waarde | 45,3 u × 13 = **± 589 euro per jaar** | |
 | Kost van de tool | 960 × $0,00123 = **€1,06 per jaar** (Haiku 5.5) · 960 × $0,0123 = €10,63 per jaar (Haiku 4.5) | gemeten |
-| Netto | 45 u × uurkost − kost van de tool | |
+| Netto | **± 588 euro per jaar** (Haiku 5.5) · ± 579 euro per jaar (Haiku 4.5) | |
+| Als de tijd met de hand de helft is | 2 min 25 s met de hand − 2 min met de tool = 25 s winst · 960 × 25 s = 6,7 u · × 13 = **± 87 euro per jaar** | |
 
 **Opgelet:** de tijd met de hand verschilt sterk per pagina. Sommige pagina's zijn vier keer zo lang, of bevatten meer risico's, en dan duurt de analyse langer. De 4 min 50 s is een gemiddelde. Kandidaat voor mijn zwakste cijfer.
 
@@ -47,4 +49,4 @@ De "ok"-run liep in de achtergrond (`claude -p`). Daar stuurt Claude Code minder
 - **Prijs van Haiku 5.5:** niet in de tabel van de cursus. Afgeleid uit `/cost`: $0,10 input, $0,50 output, $0,20 cache schrijven, $0,01 cache lezen per miljoen tokens. Beide runs kloppen hiermee. Nog checken op de prijspagina van Anthropic.
 - **Welk model voor de memo?** `/model haiku` geeft Haiku 5.5, de demo gebruikt Haiku 4.5. Vragen aan de docent.
 - **Volume per maand:** 80 is een schatting. Na een maand echt zoeken: tellen.
-- **Uurkost:** welk bedrag, en met welke bron? (loon bij Brand Activators, of wat het kost om iemand anders dit te laten doen)
+- **Uurkost:** 13 euro bij Brand Activators. Bruto of netto? Nakijken op de loonbrief.
