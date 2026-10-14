@@ -82,7 +82,7 @@ Reken in euro met **1 dollar = 0,90 euro**. Dat is een aanname: check de koers v
 Drie commando's. Ze zitten in je tool, je hoeft niets te installeren.
 
 1. **Open een nieuwe sessie** in je eigen map. Typ `/model haiku`, zodat je cijfers te vergelijken zijn met de demo. Typ dan, nog voor je iets vraagt: `/context`. Noteer het aantal tokens. Dat is **de context**: wat je tool meestuurt voor je één woord typt.
-2. **Plak je prompt en input T01 in één bericht.** Alleen de input, niet het juiste antwoord. Laat je tool niets opzoeken of openen: elke extra stap stuurt de context opnieuw mee.
+2. **Plak je prompt en je eerste testinput (T01) in één bericht.** Alleen de input, niet het juiste antwoord. Laat je tool niets opzoeken of openen: elke extra stap stuurt de context opnieuw mee.
 3. **Typ `/cost`.** Je ziet de tokens en de kost van de hele sessie.
 
 Dan reken je:
