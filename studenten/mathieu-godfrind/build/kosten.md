@@ -1,0 +1,32 @@
+# Kosten
+
+Gemeten op 14 oktober 2026. Prompt v3, input T01 (tote bag). Antwoord: GO, juist (2 runs).
+
+## Kost per run
+
+| Model | Context | Totaal | Jouw deel | Kost per run | Per maand, jouw volume | 10× | 1.000× |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Haiku 5.5 (gemeten) | 48.600 | 53.900 in + 1.400 uit | 5.300 in + 1.400 uit | $0,0012 (€0,0011) | | | |
+| Haiku 4.5 (tabelprijs) | | | 5.300 in + 1.400 uit | $0,0123 (€0,0111) | | | |
+
+- **Context** = cache read + cache write van de T01-run (31.500 + 17.100). `/context` werkte niet: in deze cursus start dat de context-skill.
+- **Jouw deel** = de gewone input + output van de T01-run. Dat is wat een bedrijf via de API zou sturen.
+- **Kost per run, Haiku 5.5:** 5.300 × $0,10/M + 1.400 × $0,50/M = $0,0012.
+- **Kost per run, Haiku 4.5:** 5.300 × $1/M + 1.400 × $5/M = $0,0123.
+- Euro: 1 dollar = 0,90 euro (aanname uit de cursus, koers nog checken).
+
+## Ruwe metingen
+
+| Run | Model | Input | Output | Cache read | Cache write | `/cost` |
+|---|---|---:|---:|---:|---:|---:|
+| T01, run 1 | claude-haiku-5-5 | 5,3k | 1,3k | 31,5k | 17,1k | $0,0049 |
+| T01, run 2 | claude-haiku-5-5 | 5,3k | 1,4k | 31,5k | 17,1k | $0,0049 |
+| Alleen "ok" (`claude -p`) | claude-haiku-5-5 | 2 | 262 | 14.052 | 14.476 | $0,0032 |
+
+De "ok"-run liep in de achtergrond (`claude -p`). Daar stuurt Claude Code minder context mee (28.530 tokens) dan in een gewoon venster (48.600). Daarom gebruik ik hem niet om jouw deel uit te rekenen.
+
+## Open vragen
+
+- **Prijs van Haiku 5.5:** niet in de tabel van de cursus. Afgeleid uit `/cost`: $0,10 input, $0,50 output, $0,20 cache schrijven, $0,01 cache lezen per miljoen tokens. Beide runs kloppen hiermee. Nog checken op de prijspagina van Anthropic.
+- **Welk model voor de memo?** `/model haiku` geeft Haiku 5.5, de demo gebruikt Haiku 4.5. Vragen aan de docent.
+- **Volume per maand:** nog in te vullen (ronde 2). Waar komt het getal vandaan: geteld, gevraagd of geschat?
