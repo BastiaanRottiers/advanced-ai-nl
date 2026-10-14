@@ -14,7 +14,7 @@ Gemeten op 14 oktober 2026. Prompt v3, input T01 (tote bag). Antwoord: GO, juist
 - **Kost per run, Haiku 5.5:** 5.300 × $0,10/M + 1.400 × $0,50/M = $0,0012.
 - **Kost per run, Haiku 4.5:** 5.300 × $1/M + 1.400 × $5/M = $0,0123.
 - Euro: 1 dollar = 0,90 euro (aanname uit de cursus, koers nog checken).
-- **Volume:** 80 productpagina's per maand (± 20 per week als ik actief producten zoek voor bol.com). Geschat, niet geteld: ik verkoop nog niet echt. 10× = 800, 1.000× = 80.000 per maand.
+- **Volume:** 80 productpagina's per maand (± 20 per week als ik actief producten zoek om op Vinted te verkopen). Geschat, niet geteld: ik verkoop sinds 2 weken op Vinted, maar ik hield niet bij hoeveel pagina's ik bekeek. 10× = 800, 1.000× = 80.000 per maand.
 - Per run gerekend met de exacte prijs: Haiku 5.5 = $0,00123, Haiku 4.5 = $0,0123.
 
 ## Waarde: hoeveel tijd wint mijn tool?
