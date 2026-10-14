@@ -1,0 +1,12 @@
+# Logboek
+
+Elke run, elk resultaat, elke wijziging. Wis nooit een fout.
+
+| Datum | Versie | Wat ik deed | Resultaat | Fout of opvallend | Volgende stap |
+|---|---|---|---|---|---|
+| 2026-10-06 | v1 | v1 gemaakt: vijf labels, regels, JSON-formaat. T01–T05 elk twee keer gedraaid, telkens in een nieuw gesprek | 8 op 10 juist (n = 5, 2 runs) | T05 (betalingsbevestiging): twee keer `info`, ik verwachtte `negeren`. F1 (fout), 2× | Audit van de prompt met de zes bouwstenen |
+| 2026-10-13 | v2 | Audit: er ontbraken voorbeelden (bouwsteen 4) en er stond geen enkele "want" bij de regels (bouwsteen 2). `info` en `negeren` herschreven met een want: info = iets wat ik later nog nodig heb, negeren = al afgerond. Drie voorbeelden toegevoegd (`dringend`, `info`, `negeren`) | Nog niet gedraaid | T05 ging fout omdat de prompt het verschil tussen `info` en `negeren` niet kende, niet door het model | T05 opnieuw draaien in een nieuw gesprek. Testset naar tien |
+| 2026-10-13 | v2 | Testset naar tien: T06–T10 toegevoegd (Engels, kort, `later`, `onzeker`, vaag). T04 werd alleen `later`, nakijkregel geschrapt. Run 1 op T06–T10, telkens een nieuw tijdelijk gesprek | 4 op 5 juist (n = 5, 1 run) | T07 (UNIZO-verificatiecode): `later` i.p.v. `dringend`. F1. Het model volgde de regel "geen deadline = later" | T05 opnieuw draaien met v2 |
+| 2026-10-13 | v2 | T05 opnieuw gedraaid met v2, in een nieuw tijdelijk gesprek | Juist: `negeren` (n = 1, 1 run) | Het model herhaalt bijna letterlijk de want uit de nieuwe regel. Maar de regel noemt zelf "een betaling", dus nog geen bewijs | Buurtest. Thuis: alle tien een tweede keer (Run 2) |
+| 2026-10-13 | v2 | Buurtest: buur las alleen de prompt en koos een label voor T07, T09, T10 | 3 op 3 gelijk aan mijn antwoord | T07: buur koos `dringend` "omdat je de code meteen moet invullen". Dat weet ze uit ervaring, het staat niet in de prompt. Het model koos `later` | Volgende wijziging: in de prompt zetten dat "meteen" of "zojuist" ook een deadline is |
+| 2026-10-13 | v2 | T01–T05 opnieuw gedraaid met v2, zodat alle tien met dezelfde prompt gedraaid zijn. T05 voor de tweede keer met v2 | 9 op 10 juist (n = 10, 1 run) | Enige fout: T07, F1. T05 twee keer `negeren` met v2 | Run 2: alle tien een tweede keer. Daarna de T07-regel ("meteen" = deadline) |

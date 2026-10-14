@@ -1,11 +1,28 @@
-# Productmarge-analist
+# AI Lead Intake Checker
 
-- Taak: analyseer productverkopen, signaleer brutomarges onder het doel en bereken onderbouwde verbeter scenario’s.
-- Input: CSV met product, aantal verkocht, nettoverkoopprijs en directe kost per stuk; doelbrutomarge, één periode en valuta, exclusief btw.
-- Output: omzet, directe kosten, brutowinst, marge, oordeel en verschil met doel. Bij ontbrekende of ongeldige data: onvoldoende betrouwbare data, met reden.
-- AI: later een taalmodel voor uitleg en onderzoekssuggesties; vaste code voert alle financiële berekeningen uit.
-- Controle: onafhankelijk narekenen, juiste labels controleren en scenario-aannames expliciet maken. Geen onbewezen oorzaken of beloofde winst.
+Een AI Lead Intake Checker voor een AI-automationbedrijf.
 
-## Testvoorbeelden van Emma
+## Input
 
-Nog aan te leveren: vijf echte inputideeën. Verwachte antwoorden schrijft Emma later zelf in test-set.md.
+Een nieuwe lead met:
+- Naam
+- E-mailadres
+- Bedrijf, optioneel
+- Bericht of automatisatievraag
+
+## Statussen
+
+De tool geeft één van drie statussen:
+- READY = naam, geldig e-mailadres en een duidelijke vraag zijn aanwezig.
+- NEEDS_INFO = de lead is bereikbaar via e-mail, maar naam of duidelijke vraag ontbreekt.
+- INVALID = er is geen bruikbaar e-mailadres, de input is leeg of het is duidelijk spam/testdata.
+
+## Output
+
+- Status
+- Ontbrekende informatie
+- Korte reden
+
+## Regel
+
+Gebruik alleen de informatie uit de input en verzin niets.

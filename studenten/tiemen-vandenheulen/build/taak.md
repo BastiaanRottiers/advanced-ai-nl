@@ -14,4 +14,4 @@
 4. “Goed georganiseerd en vriendelijk personeel. Ik kom volgend jaar graag weer.”
 5. “Leuke locatie en genoeg te doen. Het was op sommige momenten wel erg druk.”
 
-_De juiste antwoorden schrijft de student later zelf in `build/test-set.md`._
+_De juiste antwoorden schrijft de student vooraf in `build/test-set.md`._

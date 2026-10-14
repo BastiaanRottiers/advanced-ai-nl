@@ -18,7 +18,9 @@
 - Verdere programmeerervaring is nog niet besproken.
 
 ## Dit vak
-- Richting: voorlopig Chiro; ik ben nog niet zeker.
+- Cursusproject: bachelorproef binnen **3KMO wordt ondernemer**, samen met drie medestudenten.
+- Bedrijfsidee: **WATTZAK**, opbergzakken om laadkabels van een auto overzichtelijk in de koffer te bewaren.
+- Productideeën tot nu toe: een zak aan de hoofdsteun achter de achterbank, en een variant met velcro aan de zijkant van de koffer.
 - Traject: 4 ECTS.
 
 ## Doe dit niet
