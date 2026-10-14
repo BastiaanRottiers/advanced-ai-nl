@@ -6,14 +6,16 @@ Gemeten op 14 oktober 2026. Prompt v3, input T01 (tote bag). Antwoord: GO, juist
 
 | Model | Context | Totaal | Jouw deel | Kost per run | Per maand, jouw volume | 10× | 1.000× |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| Haiku 5.5 (gemeten) | 48.600 | 53.900 in + 1.400 uit | 5.300 in + 1.400 uit | $0,0012 (€0,0011) | | | |
-| Haiku 4.5 (tabelprijs) | | | 5.300 in + 1.400 uit | $0,0123 (€0,0111) | | | |
+| Haiku 5.5 (gemeten) | 48.600 | 53.900 in + 1.400 uit | 5.300 in + 1.400 uit | $0,0012 (€0,0011) | $0,10 (€0,09) | $0,98 (€0,89) | $98,40 (€88,56) |
+| Haiku 4.5 (tabelprijs) | | | 5.300 in + 1.400 uit | $0,0123 (€0,0111) | $0,98 (€0,89) | $9,84 (€8,86) | $984 (€885,60) |
 
 - **Context** = cache read + cache write van de T01-run (31.500 + 17.100). `/context` werkte niet: in deze cursus start dat de context-skill.
 - **Jouw deel** = de gewone input + output van de T01-run. Dat is wat een bedrijf via de API zou sturen.
 - **Kost per run, Haiku 5.5:** 5.300 × $0,10/M + 1.400 × $0,50/M = $0,0012.
 - **Kost per run, Haiku 4.5:** 5.300 × $1/M + 1.400 × $5/M = $0,0123.
 - Euro: 1 dollar = 0,90 euro (aanname uit de cursus, koers nog checken).
+- **Volume:** 80 productpagina's per maand (± 20 per week als ik actief producten zoek voor bol.com). Geschat, niet geteld: ik verkoop nog niet echt. 10× = 800, 1.000× = 80.000 per maand.
+- Per run gerekend met de exacte prijs: Haiku 5.5 = $0,00123, Haiku 4.5 = $0,0123.
 
 ## Ruwe metingen
 
@@ -29,4 +31,4 @@ De "ok"-run liep in de achtergrond (`claude -p`). Daar stuurt Claude Code minder
 
 - **Prijs van Haiku 5.5:** niet in de tabel van de cursus. Afgeleid uit `/cost`: $0,10 input, $0,50 output, $0,20 cache schrijven, $0,01 cache lezen per miljoen tokens. Beide runs kloppen hiermee. Nog checken op de prijspagina van Anthropic.
 - **Welk model voor de memo?** `/model haiku` geeft Haiku 5.5, de demo gebruikt Haiku 4.5. Vragen aan de docent.
-- **Volume per maand:** nog in te vullen (ronde 2). Waar komt het getal vandaan: geteld, gevraagd of geschat?
+- **Volume per maand:** 80 is een schatting. Na een maand echt zoeken: tellen.
