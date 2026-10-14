@@ -1,0 +1,12 @@
+# Logboek
+
+Elke run, elk resultaat, elke wijziging. Wis nooit een fout.
+
+| Datum | Versie | Wat ik deed | Resultaat | Fout of opvallend | Volgende stap |
+|---|---|---|---|---|---|
+| 30 september 2026 | v1 | 5 inputs, elk 2 keer gedraaid | 8 op 10 juist | Bij T04 (Vollering) zei mijn tool twee keer "geen info" in plaats van "goed". De berichten gingen vooral over emotie en mentaliteit, en mijn prompt had geen voorbeeld van goede vorm. | Mijn prompt nakijken met de zes bouwstenen en aanvullen wat ontbreekt. |
+| 7 oktober 2026 | v2 | Audit gedaan, rol en doel, "want" bij elke regel en 4 voorbeelden toegevoegd | Nog niet gedraaid | Bij de audit zag ik dat bouwsteen 4 (voorbeelden) volledig ontbrak en dat geen enkele regel een "want" had. | Vijf lastige inputs toevoegen zodat mijn testset naar tien gaat, en v2 testen. Later wil ik uitslagen er misschien in verwerken. |
+| 7 oktober 2026 | v2 | Buurtest met een klasgenoot Mohammed | Mijn buur koos bij 3 van de 3 inputs (T06, T09, T10) hetzelfde label als ik | Mijn buur vond de prompt goed en duidelijk, maar iets te lang. | De zin over de uitslagen uit de prompt halen om hem korter te maken, en daarna run 1 doen. |
+| 7 oktober 2026 | v2 (met de zin over uitslagen nog in de prompt) | Run 1 en 2 op T04, T06, T07, T08 en T09 | 4 op 5 juist (n = 5, 1 run); 7 op 10 juist (n = 5, 2 runs) | T04 nu juist (met v1 fout). T06 twee keer "goed" in plaats van "geen info" (F1). T09 wisselt tussen "vermoeid" en "goed" (F6). | Eén wijziging kiezen voor T06 of T09. |
+| 13 oktober 2026 | v3 | Eén wijziging: regel toegevoegd over berichten die zowel iets positiefs als iets negatiefs over de vorm zeggen, dan "geen info" (bouwsteen 2), omdat T06 twee keer "goed" gaf (F1). Opnieuw gedraaid: T06 en T09, elk 2 keer. | T06 2x "geen info" (nu juist), T09 2x "geen info" (fout, juist is "vermoeid", F1) | De nieuwe regel lost T06 op, maar is te breed: bij T09 leest het model "niet 100 procent, maar klaar om te koersen" ook als tegenstrijdig. | De andere vijf inputs draaien en een tweede run doen; in week 4 de regel afbakenen zodat hij T09 niet meer raakt. |
+| 13 oktober 2026 | v3 | Alle tien inputs 2 keer gedraaid | 8 op 10 juist (n = 10, 1 run); 16 op 20 juist (n = 10, 2 runs) | Alle antwoorden stabiel (geen F6). T03 en T09 fout: twee keer "geen info" in plaats van "vermoeid" (allebei F1). Met v1 was T03 nog juist; de regel over gemengde signalen is te breed. | In week 4 de regel afbakenen. |
