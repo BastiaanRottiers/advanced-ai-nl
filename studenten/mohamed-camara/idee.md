@@ -14,27 +14,27 @@ Macaroni, boter, bloem, melk, geraspte kaas, zout en peper. Paprikapoeder en loo
 
 ### 2. Spaghetti met kip en tomatensaus
 
-Spaghetti, kipfilet, tomatensaus of passata, ui, olie of boter, zout, peper, paprikapoeder en Italiaanse kruiden of oregano. Knoflook en geraspte kaas zijn optioneel.
+Spaghetti, kippenbout, tomatenpuree, ui, olie of boter, zout, peper, paprikapoeder en kippenkruiden. Knoflook en geraspte kaas zijn optioneel.
 
-### 3. Bagel met kip, hummus en omelet
+### 3. Bagel met hummus en omelet
 
-Bagel, hummus, kipfilet, eieren, tomaat, olie of boter, zout, peper en paprikapoeder. Sla, komkommer en chilisaus zijn optioneel.
+Bagel, hummus, eieren, tomaat, olie of boter, zout, peper en paprikapoeder. Sla, komkommer en chilisaus zijn optioneel.
 
-### 4. Aardappelsalade met kip en ei
+### 4. Aardappelsalade met ei
 
-Aardappelen, kipfilet, eieren, sla, tomaten, komkommer, ajuin, olie, zout, peper, paprikapoeder, olijfolie, citroensap of azijn en mosterd. Lookpoeder is optioneel.
+Aardappelen, eieren, sla, tomaten, komkommer, ajuin, olie, zout, peper, paprikapoeder, azijn en mosterd. Lookpoeder is optioneel.
 
 ### 5. Cheeseburger met frietjes
 
 Rundergehakt, hamburgerbroodjes, cheddar of andere smeltkaas, sla, tomaat, ajuin, augurken, zout, peper, diepvriesfrietjes, mayonaise, ketchup en mosterd. Paprikapoeder en augurkensap zijn optioneel.
 
-### 6. Kipcurry met rijst
+### 6. Curry met rijst
 
-Rijst, kipfilet, ajuin, kookroom of kokosmelk, currypoeder, olie of boter, zout, peper en paprika. Knoflook, wortel, erwtjes en broccoli zijn optioneel.
+Rijst, ajuin, kookroom of kokosmelk, currypoeder, olie of boter, zout, peper en paprika. Knoflook, wortel, erwtjes en broccoli zijn optioneel.
 
-### 7. Tosti met kip en kaas
+### 7. Croque monsieur
 
-Brood, kipfilet, kaas en boter. Mayonaise, mosterd, sla en tomaat zijn optioneel.
+Brood, kaas en boter. Mayonaise, mosterd, sla en tomaat zijn optioneel.
 
 ### 8. Romige pasta met zalm
 
@@ -46,4 +46,4 @@ Pasta, komkommer, tomaten, ajuin, maïs, mozzarella, mayonaise, mosterd, citroen
 
 ### 10. Eenvoudige lasagne
 
-Rundergehakt, ajuin, passata of tomatensaus, olijfolie, zout, peper, Italiaanse kruiden of oregano, paprikapoeder, boter, bloem, melk, lasagnebladen en geraspte kaas. Knoflook, tomatenpuree, nootmuskaat en Parmezaanse kaas zijn optioneel.
+Rundergehakt, ajuin, tomatenpuree, olie, zout, peper, paprikapoeder, boter, bloem, melk, lasagnebladen en geraspte kaas. Knoflook, nootmuskaat en Parmezaanse kaas zijn optioneel.
