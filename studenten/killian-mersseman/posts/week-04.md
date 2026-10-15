@@ -10,13 +10,15 @@ In Excel staan nu twaalf metingen voor vier bedrijven. Deze week zijn voor Novo 
 
 ## Wat kost één run?
 
-Mijn gemeten Netflix/Uber-sessie gebruikte 807.321 inputtokens, waarvan 725.248 uit cache, en 6.822 outputtokens. Met de GPT-6.1 Sol-tarieven uit de les bereken ik $0,3048908 voor die hele sessie. Dat is een API-equivalent, geen bijkomende factuur boven op mijn Plus-abonnement.
+Ik heb in een nieuwe Codex-sessie één AMZN-update uitgevoerd: het lokale rapport lezen, drie waarden extraheren, JSON opslaan en Excel bijwerken. Het zoeken en downloaden gebeurde vooraf. De uitvoer vermeldt 2 minuten en 54 seconden; drie nieuwe metingen zijn toegevoegd, vijftien in totaal. De AMZN-broncontrole moet ik nog doen.
 
-De meting bevat ook uitleg over bijlagen, mislukte pdf-leespogingen en meerdere stappen. De gebruikte context van 82,9K tokens achteraf is geen cumulatief verbruik. Een beginmeting ontbreekt, waardoor ik mijn eigen prompt en antwoord niet correct van de overige context kan scheiden. Ik heb dus nog geen geïsoleerde kost per nieuwe bedrijfsupdate.
+Het sessielog registreert 809.064 inputtokens, waarvan 754.944 uit cache, en 4.076 outputtokens. De 54.120 overige inputtokens en de output reken ik apart af tegen de GPT-6.1 Sol-tarieven uit de les. Dat geeft (54.120 × $2 + 754.944 × $0,10 + 4.076 × $10) / 1.000.000 = $0,2244944. Dit is het API-equivalent van de volledige agentrun, geen bijkomende factuur boven op Plus.
 
-Als voorlopig rekenscenario gebruik ik toch de volledige oude sessiekost per update. Bij mijn geplande 40 updates per jaar is dat gemiddeld $1,02 per maand, $10,16 bij 10× en $1.016,30 bij 1.000×. Met dezelfde tokenaantallen en de Luna-tarieven uit de les wordt dat ongeveer $0,06, $0,63 en $62,90. Dit is alleen een prijsvergelijking; ik heb Luna niet getest op kwaliteit of werkelijk tokenverbruik.
+De meting omvat ook agentcontext, het lezen van vaardigheden, een mislukte pdf-leespoging en de installatie van een pdf-lezer. Mijn eigen prompt en antwoord zijn niet apart van die context gemeten. De eerste tokenregistratie bevat al een modelstap; die zomaar aftrekken zou werk weglaten. Eén run is ook geen gemiddelde. Volgende rapporten, cachegebruik en een al geïnstalleerde lezer kunnen een andere kost geven.
 
-De opgehaalde ECB-referentie van 14 oktober geeft 1 euro = 1,1195 dollar, dus ongeveer €0,8933 per dollar. De oude sessie komt daarmee op ongeveer €0,2723. Bron en berekeningen staan in `build/kosten.md`. Dit vervangt de ronde lesaanname van €0,90 per dollar.
+Bij 40 updates per jaar wordt dit gemiddeld $0,75 per maand, $7,48 bij 10× en $748,31 bij 1.000×. Met dezelfde tokens en de Luna-lesprijzen wordt dat $0,05, $0,50 en $50,00. Dit vergelijkt alleen prijzen: ik heb Luna niet getest op kwaliteit of werkelijk verbruik.
+
+De opgehaalde ECB-koers van 15 oktober is 1 euro = 1,1208 dollar. De run kost daarmee ongeveer €0,2003. Bron, tokenaantallen en berekeningen staan in `build/kosten.md`. De eerdere Netflix/Uber-sessie blijft daar bewaard, maar vormt niet langer de basis van mijn actuele scenario.
 
 ## Met de hand of met de tool?
 
@@ -24,8 +26,8 @@ Handmatig schat ik vijf minuten voor het rapport zoeken, 45 minuten voor cijfers
 
 Het verschil is 45 minuten per update. Tien bedrijven per kwartaal geven 40 updates per jaar: 30 uur mogelijke tijdwinst. Gemiddeld is dat 2,5 uur per maand, ongeveer 35 minuten per week en vijf minuten per kalenderdag. Het werk valt in werkelijkheid rond rapportages.
 
-Ik waardeer mijn tijd persoonlijk op €5 per uur. Handmatig werk zou ten koste gaan van mijn trainingen en familietijd. De geschatte waarde is dus €150 per jaar vóór toolkosten. Met de voorlopige oude sessiekost als vervanging wordt dat €150 − 40 × €0,2723 = ongeveer €139,11. Dit is geen aangetoonde netto-opbrengst van de nieuwe workflow. Zonder tool zou ik het handwerk mogelijk niet doen. De tool maakt de opvolging vooral haalbaar. Betere beleggingen hoop ik ermee te ondersteunen, maar die opbrengst is niet gemeten.
+Ik waardeer mijn tijd persoonlijk op €5 per uur. Handmatig werk zou ten koste gaan van mijn trainingen en familietijd. De geschatte waarde is dus €150 per jaar vóór toolkosten. Met de volledige AMZN-run als kostaanname wordt dat €150 − 40 × €0,2003 = ongeveer €141,99. Dit scenario veronderstelt dat iedere update hetzelfde kost. Het is geen aangetoonde netto-opbrengst. Zonder tool zou ik het handwerk mogelijk niet doen. De tool maakt de opvolging vooral haalbaar. Betere beleggingen hoop ik ermee te ondersteunen, maar die opbrengst is niet gemeten.
 
 ## Mijn zwakste cijfer
 
-Ik vertrouw de 40 updates het minst. Soms volg ik de beurs meer, soms moet ik een kwartaal inhalen. Ik moet consistent blijven. Bij twintig updates halveert de tijdwinst naar vijftien uur en de waarde vóór kosten naar €75. Met hetzelfde voorlopige kostenscenario blijft ongeveer €69,55 over. Later inhalen verlaagt het jaarvolume niet automatisch. Historische data, lijngrafieken per bedrijf en nieuwsupdates blijven toekomstige uitbreidingen. Eerst wil ik mijn huidige werkwijze consequent gebruiken.
+Ik vertrouw de 40 updates het minst. Soms volg ik de beurs meer, soms moet ik een kwartaal inhalen. Ik moet consistent blijven. Bij twintig updates halveert de tijdwinst naar vijftien uur en de waarde vóór kosten naar €75. Met hetzelfde kostenscenario blijft ongeveer €70,99 over. Later inhalen verlaagt het jaarvolume niet automatisch. Historische data, lijngrafieken per bedrijf en nieuwsupdates blijven toekomstige uitbreidingen. Eerst wil ik mijn huidige werkwijze consequent gebruiken.

@@ -164,3 +164,28 @@ Valutabron: ECB-dagbestand, https://www.ecb.europa.eu/stats/eurofxref/eurofxref-
 Tijdgemiddelden bij 30 uur per jaar: 30 / 12 = 2,5 uur per maand; 30 × 60 / 52 = circa 35 minuten per week; 30 × 60 / 365 = circa 5 minuten per kalenderdag. Dit is spreiding van een jaarplan, geen dagelijks uitgevoerde taak. De handmatige 60 minuten zijn door mij uitgesplitst: 5 minuten rapport zoeken, 45 minuten cijfers verzamelen, invoeren en berekenen, en 10 minuten controleren. Dit zijn eigen schattingen, opgegeven op 15 oktober 2026. De 15 minuten met de tool zijn eveneens door mij uitgesplitst: 8 minuten uitvoeren en 7 minuten controleren. Dit zijn eigen schattingen, opgegeven op 15 oktober 2026. Beide werkwijzen sluiten mijn eigen analyses uit.
 
 Actuele uitvoering: twaalf metingen voor vier bedrijven in het lokale Excel-bestand, alle door de student bevestigd. Bronbedragen en inhoudelijke beperkingen blijven bewaard. Oudere passages hierboven blijven als voorgeschiedenis staan.
+
+## Nieuwe meting: volledige AMZN-agentrun, 15 oktober 2026
+
+Bron: sessielog 01a13fd7-9ffa-75f0-8673-fd7cad794390. Eén taak vanaf 14:00:35 UTC; laatste token_count 14:03:29 UTC. De eerste token_count bevat al de eerste modelstap en is dus geen nulmeting om af te trekken. Er staan geen eerdere taken in dit log. Het volledige cumulatieve verbruik betreft deze taak. Gedeelde uitvoer meldt 2m54s.
+
+| Onderdeel | Tokens |
+|---|---:|
+| Input inclusief cache | 809.064 |
+| Cache lezen | 754.944 |
+| Niet-gecachete input | 54.120 |
+| Output inclusief 148 reasoningtokens | 4.076 |
+| Totaal | 813.140 |
+
+Sol met lesprijzen: (54.120 × 2 + 754.944 × 0,10 + 4.076 × 10) / 1.000.000 = **$0,2244944 per volledige run**. Scope: lokale extractie, JSON-opslag, Excel-update, ECB-ophaling, inclusief agentcontext, skills, mislukte leespoging en installatie pdf-lezer. Rapport vooraf downloaden valt erbuiten. Dit is een meetpunt, geen gemiddelde of kale API-promptkost. Context en eigen deel zijn niet afzonderlijk vastgesteld. Plus factureert dit bedrag niet afzonderlijk.
+
+| Modelscenario | Per run USD | Per maand 40/12 runs USD | 10× USD | 1.000× USD |
+|---|---:|---:|---:|---:|
+| Sol, gemeten tokens | 0,2244944 | 0,75 | 7,48 | 748,31 |
+| Luna, alleen herprijsd | 0,01499944 | 0,05 | 0,50 | 50,00 |
+
+Luna: (54.120 × 0,10 + 754.944 × 0,01 + 4.076 × 0,50) / 1.000.000. Geen kwaliteits- of tokenverbruiksmeting met Luna uitgevoerd.
+
+ECB van 15 oktober 2026: EUR 1 = USD 1,1208, bron https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml, lokaal bewijs excel/koersen/2026-10-15.json. Per run $0,2244944 / 1,1208 = EUR 0,2002983583. Bij 40 updates: jaarlijkse toolkost EUR 8,01; geschatte persoonlijke nettowaarde 150 − 8,011934 = **EUR 141,99**. Bij 20 updates: 75 − 4,005967 = **EUR 70,99**. Deze scenario’s veronderstellen hetzelfde toekomstige verbruik per update, dezelfde tarieven en koers. Eénmalige installatie kan de meting beïnvloeden; andere rapporten en caching ook. Eigen analyses en eventuele beleggingsrendementen blijven uitgesloten.
+
+De eerdere kostenpassages blijven als voorgeschiedenis staan. Deze volledige één-bedrijf-run vervangt de oude tweebedrijfssessie als basis voor het actuele schaal- en waardescenario. AMZN heeft drie records toegevoegd (15 totaal); inhoudelijke broncontrole door de student staat nog open.
