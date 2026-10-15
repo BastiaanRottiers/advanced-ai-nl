@@ -1,6 +1,7 @@
-# Week 4 — <titel in je eigen woorden>
+# Week 4 — Mijn regel loste 1 fout op en maakte een nieuwe
 
 ## Mijn tool in cijfers
+Ik heb mijn tool v3 getest op 13 inputs, elk 2 keer. Daarvan waren er 24 van de 26 juist, dus ongeveer 92%. Beide fouten zaten bij T05, de pagina met alleen vage zoekwoorden. Daar moest de tool ONZEKER zeggen, maar hij zei 2 keer vol overtuiging NO-GO, dus 2 × F1. Dat kwam door mijn eigen regel 4, die ik vorige week toevoegde voor de gummies. Die regel loste T07 op, maar maakte T05 kapot. De tool heeft wel nergens een citaat verzonnen. Mijn 3 nieuwe moeilijke inputs (T11–T13) waren alle 6 keer juist. Let op: deze runs liepen via claude -p en niet via claude.ai zoals vorige weken, dus de cijfers zijn niet helemaal te vergelijken.
 
 ## Wat kost één run?
 Toen ik /cost zag, viel me vooral op dat bijna alles context was. Van de ongeveer 55.000 tokens waren er maar zo'n 6.700 van mijn prompt, de productpagina en het antwoord. De rest stuurt Claude Code altijd mee, zoals mijn CLAUDE.md, de skills van de cursus en de tools. Mijn eigen deel was dus maar ongeveer 12%.
