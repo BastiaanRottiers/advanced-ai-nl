@@ -20,7 +20,7 @@ De opgehaalde ECB-referentie van 14 oktober geeft 1 euro = 1,1195 dollar, dus on
 
 ## Met de hand of met de tool?
 
-Handmatig schat ik vijf minuten voor het rapport zoeken, 45 minuten voor cijfers verzamelen, invoeren en berekenen, en tien minuten voor controleren. Samen is dat 60 minuten per bedrijfsupdate. De eerste keer schat ik drie uur, daarna één uur per bedrijf doordat het bestand al bestaat. Met de tool schat ik vijftien minuten, inclusief nakijken. Dit zijn mijn schattingen, geen gemeten tijden. Beide gaan uitsluitend over verzamelen, noteren en cijfercontrole. Mijn eigen analyses en het afzonderlijk volgen van risico’s vallen erbuiten.
+Handmatig schat ik vijf minuten voor het rapport zoeken, 45 minuten voor cijfers verzamelen, invoeren en berekenen, en tien minuten voor controleren. Samen is dat 60 minuten per bedrijfsupdate. De eerste keer schat ik drie uur, daarna één uur per bedrijf doordat het bestand al bestaat. Met de tool schat ik acht minuten voor uitvoeren en zeven minuten voor controleren: samen vijftien minuten. Dit zijn mijn schattingen, geen gemeten tijden. Beide gaan uitsluitend over verzamelen, noteren en cijfercontrole. Mijn eigen analyses en het afzonderlijk volgen van risico’s vallen erbuiten.
 
 Het verschil is 45 minuten per update. Tien bedrijven per kwartaal geven 40 updates per jaar: 30 uur mogelijke tijdwinst. Gemiddeld is dat 2,5 uur per maand, ongeveer 35 minuten per week en vijf minuten per kalenderdag. Het werk valt in werkelijkheid rond rapportages.
 
