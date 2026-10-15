@@ -1154,4 +1154,4 @@ UITLEG: Speelgoed zonder CE-vermelding mag je niet in de EU verkopen.
 - v1: 10 op 10 juist (n = 5, 2 runs), T01–T05
 - v2: 5 op 5 juist (n = 5, 1 run), T06–T10
 - v3: 1 op 1 juist (n = 1, 1 run), alleen T10 opnieuw na de wijziging
-- v3: 24 op 26 juist (n = 13, 2 runs), T01–T13, via claude -p met Haiku 5.5. Per input: 12 op 13. Fouten: 2 × F1 (T05, beide runs). Geen F2.
+- v3: 24 op 26 juist (n = 13, 2 runs), T01–T13, via claude -p met Haiku 5.5. Per input: 12 op 13. Fouten: 2 × F1 (T05, beide runs). Geen F2. Geen F6: bij T12 waren label en risico B in beide runs gelijk, alleen het extra risico A wisselde (opvallend, geen fout).
