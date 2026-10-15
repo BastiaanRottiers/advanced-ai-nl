@@ -4,9 +4,11 @@
 
 Deze week heb ik mijn werkwijze veranderd. Eerst vergeleek ik twee rapporten in een antwoord. Nu werk ik één bedrijf per run bij in Excel, omdat bedrijven op verschillende dagen rapporteren. De tool verzamelt FCF, financiële schuld en kwartaalomzetgroei. De oorspronkelijke bedragen, perioden, definities en bronpagina’s blijven bewaard. Excel toont vergelijkingen en grafieken in USD. Ik selecteer een jaar en kwartaal; de datums volgen automatisch.
 
-Voor de oudere omzetgroeitests T06–T10 beoordeelde ik 10 op 10 runs als geslaagd: 100% (n = 5 inputs, 2 runs per input). Dit geldt alleen voor omzetgroei. Het is geen succespercentage voor de nieuwe Excel-werkwijze. Bij eerdere tests miste de tool eenmaal het gerapporteerde AMD-percentage: F3, gemist. Tussen die twee runs wisselde de keuze tussen gerapporteerd en berekend: F6. Ook bij Alphabet wisselde het onzekerheidslabel over dezelfde schuldinformatie: F6. Dat zijn twee vastgelegde gevallen van wisselend gedrag, geen volledige foutentelling over alle tests.
+Over tien inputs zijn 15 van 20 geselecteerde runs expliciet geslaagd beoordeeld: 75% (n = 10 inputs, 2 runs per input). Drie zijn niet geslaagd en twee blijven bruikbaar met onvolledige beoordeling. Dit is een telling van mijn eerdere oordelen, geen uniforme nauwkeurigheidsmeting. Promptversies en scopes verschillen: sommige tests controleren financiële kerncijfers, andere alleen omzetgroei. Voor T06–T10 afzonderlijk is de omzetgroeiscore 10/10 (n = 5 inputs, 2 runs).
 
-In Excel staan nu twaalf metingen voor vier bedrijven. Deze week zijn voor Novo Nordisk en Lilly telkens drie waarden uit één rapport toegevoegd. Ik heb ze in de bronnen gecontroleerd. Bij schuld blijven beperkingen over leases zichtbaar. Deze twee updates bewijzen nog niet dat de nieuwe prompt voor alle bedrijven betrouwbaar is. Een volledige, uniforme totaalscore voor T01–T10 ontbreekt nog, doordat promptversies en controles verschillen.
+Vastgelegde fouten: F3 één geval, toen AMD’s gerapporteerde percentage ontbrak. F6 twee gevallen van wisselend gedrag: de omzetgroeikeuze bij AMD en het onzekerheidslabel bij Alphabet. F3 en F6 overlappen bij AMD. T03 heeft geen definitieve foutklasse: de aanvullende FCF-instructie is niet meer bekend. Ik sloot die twee runs af met beperkingen.
+
+Voor Novo Nordisk en Lilly zijn elk drie waarden aan Excel toegevoegd en door mij gecontroleerd. Schuldbeperkingen blijven zichtbaar. Deze updates en de oudere tests bewijzen niet dat de nieuwe Excel-werkwijze algemeen betrouwbaar is.
 
 ## Wat kost één run?
 
