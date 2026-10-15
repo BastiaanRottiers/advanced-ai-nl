@@ -26,3 +26,20 @@ Deze tool helpt mij als beginnende belegger die aan stockpicking doet om twee kw
 - T06–T10 zijn afgerond: 10/10 geslaagde omzetgroeiruns (n = 5 inputs, elk 2 runs). Controleer T01–T05 en hun testcondities voordat een totaalscore voor alle tien inputs wordt vastgesteld.
 - Gekozen FCF-perioderegel: oude v2 kiest automatisch halfjaar, huidige v2 toont keuzes en wacht; één gerichte gedragstest geslaagd. Vermeld dat ook andere promptonderdelen gewijzigd zijn en dat één test geen algemeen bewijs vormt.
 - Mijn eigen post schrijven in `posts/week-03.md` en indienen vóór dinsdag 13 oktober 2026, 23:59.
+
+## Nieuwe werkwijze week 4: één bedrijf per run, vergelijken in Excel
+
+Ik volg NFLX, UBER, NVO, LLY, AMZN, GOOGL, SPGI, NVDA, AMD en CVX elk kwartaal op: ongeveer 40 bedrijfsupdates per jaar. Ik kies één bedrijf per run vanwege verschillende rapportagedagen.
+
+- `prompt-v3-enkel-bedrijf.md`: nieuwe werkversie voor cijferextractie en Excel-update; nog niet volledig getest. Risicoanalyse valt buiten deze update.
+- `excel/README.md`: gebruik van het update-script.
+- `../outputs/kwartaalopvolging/kwartaalopvolging.xlsx`: vergelijking, grafieken met periodefilters en historiek met bronverwijzingen en controlestatus.
+- `kosten.md`: meting van de eerdere sessie en mijn volume- en tijdsaannames. De nieuwe run per bedrijf heeft nog een eigen meting nodig.
+
+De oorspronkelijke promptversies en testset blijven bewaard. Het lokale Excel-bestand bevat nu twaalf metingen voor NFLX, UBER, NVO en LLY. De student heeft de bronnen bevestigd; de inhoudelijke schuldbeperkingen blijven in de notities bewaard. NVO en LLY zijn elk met één nieuw rapport verwerkt; dit is nog geen brede validatie van v3. Op verzoek zoekt en downloadt de agent het officiële rapport voor één bedrijf; er is geen geplande achtergrondtaak.
+
+## Stand bij indiening week 4
+
+Post: `../posts/week-04.md` (500–800 woorden); scenario: `../scenario.md`; reflectie: `../reflecties/reflectie-1.md`. De reflectie krijgt een aparte commit. Kosten en schaalberekeningen staan in `kosten.md`.
+
+Checkpoint nog niet volledig afgerond: er is geen geïsoleerde kostmeting voor de nieuwe één-bedrijf-run en geen uniforme eindscore voor de volledige T01–T10-reeks. De bevestigde omzetgroeiscore is 10/10 (n = 5 inputs, 2 runs); oudere bredere tests blijven afzonderlijk beoordeeld. De post benoemt deze beperkingen. Bron-pdf’s en Excel-uitvoer blijven volgens de algemene gitignore lokaal; bronlinks, JSON-extracties en scripts worden wel ingediend.
