@@ -20,6 +20,9 @@ Juiste antwoord = label (`GO` / `NO-GO` / `ONZEKER`) en bij `NO-GO` de risico's 
 | T08 | Pluche Monster Energy-pop — zie T08 hieronder | NO-GO (A, B) | A: de knuffel gebruikt de naam en de look van Monster Energy, een merk van iemand anders. B: het is speelgoed en er staat geen CE. Lastige punten: de merknaam is XINLI, dus de tool kan denken dat er geen merkprobleem is. Er staat "14 Jaar & up", dus de tool kan denken dat het geen speelgoed is. En "Verantwoordelijke EU-persoon" klinkt als in orde, maar het is geen CE. | NO-GO (A, B) | |
 | T09 | LED-bureaulamp, pagina in het Frans — zie T09 hieronder | NO-GO (B) | Het is een lamp op netstroom, dus elektronica, en er staat nergens CE. Lastige punten: de pagina is in het Frans, dus de tool moet letterlijk in het Frans citeren en niet vertalen. In de titel staat "norme américaine", dat is geen CE. En "Prise: US/EU/UK" klinkt alsof het voor Europa in orde is, maar een EU-stekker is geen CE. | NO-GO (B) | |
 | T10 | Metalen sleutelhanger, korte input — zie T10 hieronder | GO | Het is een metalen sleutelhanger zonder merk van iemand anders, geen elektronica, niet breekbaar en niet verboden. Lastig punt: er staat weinig tekst, dus de tool kan ONZEKER zeggen. Maar het is wel duidelijk wat het product is en van welk materiaal, dus ONZEKER is hier fout. | GO | |
+| T11 | "Designer Frans geïnspireerde" schoudertas, DHgate — zie T11 hieronder | NO-GO (A) | De titel zegt "Designer Frans geïnspireerde schoudertas met ketting" en "luxe". Er staat geen merknaam, maar het verwijst duidelijk naar een bekende Franse luxetas. "Geïnspireerd" werkt hetzelfde als "style" in mijn regel A. Lastig punt: omdat er geen merknaam staat, kan de tool GO zeggen. Dat is net wat ik wil testen. | | |
+| T12 | Pluche "Niuniu Energy Drink"-blik, CE alleen op foto, AliExpress — zie T12 hieronder | NO-GO (B) | De pagina noemt het zelf een pluche pop, dus het is speelgoed volgens mijn regel, ook met 14+ jaar. CE staat niet in de tekst. Lastig punt: CE staat wel op een foto, maar de tool ziet alleen tekst. Dit toont een grens van mijn tool. Tweede lastig punt: "Niuniu Energy Drink blik" en "voor fans" kan verwijzen naar een bestaand merk, maar er staat geen echte merknaam, dus A tel ik niet als verplicht risico. | | |
+| T13 | Gotische konijnenknuffel-sleutelhanger, AliExpress — zie T13 hieronder | NO-GO (B) | Het is een grijze zone: een sleutelhanger kan decoratie zijn, maar de pagina noemt het zelf een knuffel. Bij twijfel kies ik NO-GO, want als het toch speelgoed is, mag ik het zonder CE niet verkopen. | | |
 
 ## Inputs
 
@@ -701,6 +704,83 @@ Bedrukking: UV-printen
 vorm: Rond
 materiaal: Metaal
 plaats van herkomst: Guangdong, China
+```
+
+### T11
+Link: https://nl.dhgate.com/product/designer-french-inspired-chain-strap-shoulder/1105429294.html
+
+```
+Titel: Gratis verzending Designer Frans geïnspireerde schoudertas met ketting - Trendy mini vierkante crossbodytas voor dames, luxe
+
+Beschrijving:
+Deze damesschoudertas is gemaakt van PU-materiaal, dat zeer licht van gewicht is, een goede elasticiteit heeft, zacht en comfortabel aanvoelt en een goede waterbestendigheid heeft.
+Deze damesschoudertas is geschikt om te matchen met verschillende kledingstijlen, de juiste kleding met een stijlvolle tas, zodat je het mooiste landschap kunt worden.
+Deze schoudertas voor dames heeft een wetenschappelijk ontwerp en voldoende ruimte in de tas voor een portemonnee voor een mobiele telefoon en meer, waardoor hij perfect is voor woon-werkverkeer.
+Welkom in mijn winkel, de productfoto's van het bedrijf zijn door een professionele fotograaf aan te passen, omdat het display anders is, de kleur kan veroorzaken, ontvang alstublieft de goederen. 100% foto... Tijdige service.
+Onze productkwaliteitsborging, de slogan van ons bedrijf is: niet het nastreven van lagere prijzen, maar het nastreven van de hoogste. Welkom in onze winkel, wij zullen u voorzien van kwaliteitsproducten en de meest voorkeur.
+
+Specificaties:
+Type: Schoudertas
+Geslacht: Dames
+Patroon: Gewoon
+Materiaal: Pu
+Gelegenheid: Daily Outfit
+Stijl: Wijnoogst
+Sluitingstype: Rits
+Grootte: Klein (20-30 cm)
+Product Code: 1105429294
+Categorie: Schoudertassen
+```
+
+### T12
+Link: https://nl.aliexpress.com/item/1005013301193235.html
+
+Notitie (niet in de input voor de tool): op de foto hangt een CE-label aan de knuffel. In de tekst staat nergens CE.
+
+```
+Titel: Nieuwe rode Niuniu Energy Drink blik pluche pop Kawaii huisdecoratie collectie verjaardagscadeau voor fans
+
+Specificaties:
+Is elektrisch: no
+Hoogwaardige chemicaliën: Geen
+Afstandsbediening: Nee
+Conditie: Artikelen op voorraad
+Geslacht: Uniseks
+Thema: Film en tv
+Materiaal: Pluche
+Artikeltype: Anime-accessoires
+Mfg-serienummer: Pluche serie
+Merknaam: Potdemiel
+Oorsprong: Cn (Oorsprong)
+Aanbevolen leeftijd: 14+ jaar
+
+Beschrijving:
+Productdetails:
+Materiaal: zacht pluche en PP-katoen
+Kleur: zoals afgebeeld
+Verpakking: 1 stuk per OPP-zak
+Opmerking:
+1. Vanwege de verschillen in cameraapparatuur, lichtintensiteit en beeldschermen kan de kleur van het product enigszins afwijken van de kleur die op de foto's wordt weergegeven.
+2. Vanwege handmatige metingen kan er een afwijking van 0,5 tot 2 cm optreden.
+```
+
+### T13
+Link: https://nl.aliexpress.com/item/1005013312854380.html
+
+Alleen titel en specificaties: de pagina heeft geen beschrijving in tekst.
+
+```
+Titel: Donker konijnenknuffel, gotische rebelse konijnenpop, schattig en opvallend dierenfiguur, knuffelpop, sleutelhanger, rugzakdecoratie, perfect cadeau
+
+Specificaties:
+Is elektrisch: no
+Hoogwaardige chemicaliën: Geen
+Thema: Dieren en natuur
+Waarschuwing: None
+Vullen: PP-katoen
+Oorsprong: Cn (Oorsprong)
+Cn: Guangdong
+Aanbevolen leeftijd: 14+ jaar
 ```
 
 ## Antwoorden van de tool (v1, claude.ai)
