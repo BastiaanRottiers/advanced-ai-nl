@@ -7,7 +7,7 @@ Wat veranderde t.o.v. v1:
 - Bouwsteen 2: elke regel heeft nu een "want".
 - Bouwsteen 3: nieuw label `geen geldig vervoersbewijs` (gevonden via T05). Klachten over een onterecht tarief aan boord horen hierbij. Een apart label `tarief aan boord` werd eerst overwogen en weer geschrapt.
 - Bouwsteen 2: regel "wel of geen vervoersbewijs" en regel "niet kiezen op datum" (tarief aan boord geschrapt vanaf 1 juli 2026).
-- Bouwsteen 2: regel voor vergeten vs. vervallen (gevonden via T02, die in v1 twee keer `onzeker` gaf).
+- Bouwsteen 2: regel voor vergeten vs. vervallen (gevonden via T02, die in v1 twee keer `onzeker` gaf). Gekozen vanuit het perspectief van de treinbegeleider: wat kon die zien tijdens de controle? Een eerdere uitzondering voor "dezelfde dag verlengd" werd geschrapt.
 - Bouwsteen 3: vier velden erbij in de antwoordvorm (naam, abonnement, online aankoop, datum van de rit).
 - Bouwsteen 4 (voorbeelden): nog leeg, schrijft Kyan zelf.
 - De brief schrijven valt buiten deze Build (niet meetbaar).
@@ -23,7 +23,7 @@ Kies precies één label uit deze lijst:
 | Label | De klant zegt... |
 |---|---|
 | abonnement vergeten | Ik had een abonnement, maar het lag thuis. |
-| abonnement vervallen | Mijn abonnement was net vervallen. |
+| abonnement vervallen | Ik had mijn abonnement bij, maar het was vervallen of niet geldig. |
 | online ticket niet getoond | Ik had online gekocht, maar kon het niet tonen (bv. gsm plat). |
 | ticket te laat gekocht | Ik kocht mijn ticket net na vertrek. |
 | kortingskaart vergeten | Ik had recht op korting, maar had mijn kaart niet bij. |
@@ -41,12 +41,11 @@ Regels:
 - Haal naam, abonnement, online aankoop en datum alleen uit de reactie, want foute gegevens leiden tot een foute opzoeking en een foute brief.
 - Gebruik alleen info uit de reactie en verzin niets, want de medewerker zoekt de rest zelf op in het CRM, en een verzonnen detail leidt naar de verkeerde opzoeking.
 - Je weet niet of een abonnement of ticket echt geldig is. Schrijf in het "Waarom" dus wat de klant beweert ("de klant schrijft dat…"), nooit als feit, want dat ziet alleen de medewerker in het CRM.
-- Vergeten of vervallen? Kies op basis van wat de klant schrijft:
-  - Het abonnement lag thuis, en de klant schrijft niets over vervallen of niet geldig: `abonnement vergeten`.
-  - Het abonnement lag thuis, maar de klant schrijft dat het vervallen of niet geldig was: `abonnement vervallen`.
-  - De klant had het abonnement bij, maar het was vervallen of niet geldig (bv. de treinbegeleider kreeg een foutmelding op zijn toestel): altijd `abonnement vervallen`, ook als de klant schrijft dat het nog dezelfde dag verlengd werd. Want de medewerker kijkt de verlenging na in het CRM.
-  - Schrijft de klant dat het abonnement nog dezelfde dag verlengd of opnieuw gevalideerd werd? Dan blijft het `abonnement vervallen`, of het nu thuis lag of niet. Want de klant kan zich vergissen, en de medewerker moet de verlenging altijd eerst nakijken in het CRM.
-  Want voor de medewerker telt of het abonnement geldig was op de dag van de rit, niet of de klant het bij had.
+- Vergeten of vervallen? Kies vanuit wat de treinbegeleider kon zien tijdens de controle:
+  - Het abonnement lag thuis: altijd `abonnement vergeten`, ook als de klant schrijft dat het vervallen was of dezelfde dag verlengd werd. Want de treinbegeleider kon het abonnement niet controleren.
+  - De klant had het abonnement bij, maar het was vervallen of niet geldig (bv. een foutmelding op het toestel van de treinbegeleider): `abonnement vervallen`. Want de treinbegeleider zag dat het niet geldig was.
+
+  Of het abonnement echt geldig was op de dag van de rit, kijkt de medewerker na in het CRM.
 - Neem de datum van de rit over zoals de klant hem schrijft (bv. "gisteren" of "vorige dinsdag"). Reken hem niet om, want je weet niet welke dag het vandaag is, en een foute datum leidt naar de verkeerde rit in het CRM.
 
 <!-- Bouwsteen 5: een uitweg -->
