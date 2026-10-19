@@ -7,24 +7,34 @@ Prijs Haiku 5.5: $0,10 per miljoen input-tokens, $0,50 per miljoen output-tokens
 
 | Model | Context (`/context`) | Totaal (`/cost`) | Jouw deel | Kost per run | Per maand, jouw volume | 10× | 1.000× |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| Haiku 5.5 | | | | $0,0039 (± €0,0035) | $0,078 (± €0,07) | $0,78 (± €0,70) | $78 (± €70) |
-| Sonnet 5.5 (berekend) | | | | $0,078 (± €0,07) | $1,56 (± €1,40) | $15,60 (± €14) | $1.560 (± €1.400) |
+| Haiku 5.5 | ± 18.400 tot 20.100 | 20.282 (19.736 in + 546 uit) | niet betrouwbaar (−321 tot +1.372) | $0,0021 per sessie (transcript); jouw deel onzeker | n.b. | n.b. | n.b. |
+| Sonnet 5.5 (berekend) | | | | n.b. | n.b. | n.b. | n.b. |
+
+n.b. = niet bepaald. De kost per run van $0,0039 uit eerdere metingen komt niet overeen met de transcripts en is vervallen. Daarom zijn de kolommen per maand, 10× en 1.000× niet meer ingevuld.
 
 ## Sonnet 5.5: hoe berekend
-- Niet gemeten, maar geschaald: Sonnet 5.5 kost op input en output 20× zoveel als Haiku 5.5 (2 en 10 dollar tegenover 0,10 en 0,50 per miljoen tokens, uit de tabel van de README en de prijs hierboven). Dus kost per run = 20 × $0,0039 = $0,078.
+- Niet gemeten. Sonnet 5.5 kost op input en output 20× zoveel als Haiku 5.5 (2 en 10 dollar tegenover 0,10 en 0,50 per miljoen tokens). Een getal per run kan pas na een schone meting, want de kost van Haiku is nog niet betrouwbaar vastgesteld.
 - Voorbehoud 1: deze verhouding klopt alleen als de prijs van Haiku 5.5 klopt, en die komt uit derde partijen. Is die prijs anders, dan verandert ook de verhouding.
 - Voorbehoud 2: ik ga ervan uit dat Sonnet evenveel tokens gebruikt als Haiku. Sonnet kan anders denken. Voor een echt cijfer: dezelfde meting draaien met `/model sonnet`.
 
 ## Hoe gemeten
-- Meting 1: nieuwe sessie, `/model haiku`, bericht "hoi", `/cost` gaf $0,0003 (2,6k input, 25 output).
-- Meting 2: prompt + T01 in één bericht, `/cost` gaf $0,0042 (eerder genoteerd als $0,0041).
-- Kost per run = meting 2 − meting 1 = $0,0039. Dit is jouw deel: prompt, input en antwoord.
+Bron: de transcripts van de sessies in de scratchpad-map `meting` (14 oktober 2026). Elke sessie is hier één aanroep van het model, met de `usage` en `costUSD` die Claude Code opslaat.
+
+| Sessie | Input (uncached + cache-write + cache-read) | Output (waarvan denken) | Kost (transcript) |
+|---|---|---|---|
+| "hoi" (547908aa) | 2 + 11.447 + 8.608 = 20.057 | 90 (69) | $0,0024 |
+| "hoi" (5fa601f3) | 2 + 6.648 + 11.714 = 18.364 | 151 (0) | $0,0015 |
+| Prompt + T01 (ddf35265) | 2 + 8.481 + 11.253 = 19.736 | 546 (490) | $0,0021 |
+
+- De prompt-sessie is meting 2. De "hoi"-sessies zijn de context: het bericht "hoi" erbij is klein.
+- Vorige cijfers ($0,0003, $0,0042 en $0,0039 per run) komen niet overeen met deze transcripts. Ze zijn vervallen.
+- Jouw deel is niet betrouwbaar te bepalen. De prompt-sessie heeft minder input (19.736) dan "hoi"-sessie 1 (20.057). De cache-writes verschillen per sessie, en die wegen het zwaarst.
 
 ## Volume
 20 runs per maand = 5 dagen per week × 4 weken. Bron: schatting van mijn eigen gebruik (elke werkdag deadlines checken), niet geteld.
 
 ## Nog open
-- Tokens van meting 2 (input en output) invullen, zodat Totaal en Jouw deel in tokens kloppen.
+- Schone meting: `/context` en `/cost` in één nieuwe sessie, zodat context en jouw deel uit dezelfde sessie komen.
+- Verklaren waarom `/cost` in de live sessie $0,0042 gaf, terwijl het transcript $0,0021 laat zien.
 - Prijs van Haiku 5.5 op de officiële pagina controleren: platform.claude.com/docs/en/about-claude/pricing.
-- Controleren of de prijs klopt met meting 2: bij $0,10 per miljoen input-tokens komt $0,0039 neer op ongeveer 39.000 input-tokens. Meting 1 (2,6k input, $0,0003) klopt wel met die prijs. Dus de tokens van meting 2 zijn nodig om dit te verklaren.
 - Een ander model met hetzelfde volume doorrekenen (ronde 2, stap 4).
