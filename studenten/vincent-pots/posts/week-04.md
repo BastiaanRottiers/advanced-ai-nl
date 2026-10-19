@@ -12,15 +12,15 @@ Wat opvalt: in mijn 5 tests miste de tool geen enkele opdracht. De fouten zijn a
 ## Wat kost één run?
 Ik mat in Claude Code met Haiku (`claude-haiku-5-5`) op 14 oktober 2026. Meting 1 was een bericht "hoi": $0,0003. Meting 2 was mijn prompt met T01: $0,0042. Het verschil is **$0,0039 per run** (± €0,0035 met 1 dollar = 0,90 euro, een aanname). Dat is mijn deel: mijn prompt, mijn input en het antwoord. Een bedrijf dat mijn tool via de API gebruikt, betaalt alleen dat, en niet de context die Claude Code zelf meestuurt.
 
-Ik heb de context (`/context`) en de tokens niet kunnen meten, dus de kolommen met tokens zijn leeg in mijn `kosten.md`. Ook staat de prijs van Haiku 5.5 niet in de tabel van de cursus. Mijn bedrag komt rechtstreeks uit `/cost`.
+Ik heb de context (`/context`) en de tokens niet kunnen meten, dus de kolommen met tokens zijn leeg in mijn `kosten.md`. De prijs van Haiku 5.5 staat niet in de tabel van de cursus. Volgens derde partijen is die **$0,10 per miljoen input-tokens en $0,50 per miljoen output-tokens**, 90% goedkoper dan Haiku 4.5. Bronnen: [Artificial Analysis](https://artificialanalysis.ai/articles/claude-haiku-5-5), [VentureBeat](https://venturebeat.com/technology/anthropic-launches-claude-haiku-5-5-with-90-api-price-reduction-matching-gpt-6-luna) en [MarkTechPost](https://www.marktechpost.com/2026/10/07/anthropic-releases-claude-haiku-5-5-a-small-model-with-1m-context-priced-at-0-10-per-million-input-tokens/). Ik heb de officiële prijspagina nog niet gecontroleerd. Mijn bedrag komt rechtstreeks uit `/cost`.
 
-| Volume | Runs per maand | Haiku (gemeten) | Sonnet 5.5 (berekend) |
+| Volume | Runs per maand | Haiku 5.5 (gemeten) | Sonnet 5.5 (berekend) |
 |---|---:|---:|---:|
-| Mijn volume | 20 | $0,078 | $0,156 |
-| 10× | 200 | $0,78 | $1,56 |
-| 1.000× | 20.000 | $78 | $156 |
+| Mijn volume | 20 | $0,078 | $1,56 |
+| 10× | 200 | $0,78 | $15,60 |
+| 1.000× | 20.000 | $78 | $1.560 |
 
-De Sonnet-cijfers zijn niet gemeten. Ik rekende × 2, omdat Sonnet in de tabel op input en output twee keer zoveel kost als Haiku 4.5, en ik ga ervan uit dat het evenveel tokens gebruikt. Op mijn eigen volume maakt het model niets uit. Bij 1.000× betaal je met Sonnet ongeveer $78 meer per maand.
+De Sonnet-cijfers zijn niet gemeten. Ik rekende × 20, omdat Sonnet 5.5 op input en output twintig keer zoveel kost als Haiku 5.5 ($2 en $10 tegenover $0,10 en $0,50 per miljoen tokens). Ik ga ervan uit dat Sonnet evenveel tokens gebruikt. Op mijn eigen volume is het verschil klein ($1,56 tegenover $0,078 per maand). Bij 1.000× betaal je met Sonnet ongeveer $1.482 meer per maand dan met Haiku.
 
 ## Met de hand of met de tool?
 - **Met de hand:** Canvas openen, doorlezen en datums opschrijven kost ongeveer 5 minuten. Bron: schatting.
