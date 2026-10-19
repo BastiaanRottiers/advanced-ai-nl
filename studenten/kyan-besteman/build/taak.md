@@ -2,7 +2,7 @@
 
 1. **Taak:** een klantenreactie over een boete of een ticket aan boord lezen en zeggen welke situatie het is, zodat ik weet wat ik in het CRM moet opzoeken.
 2. **In:** één klantenreactie (uit een publieke bron, of zelf geschreven en anoniem, nooit uit het NMBS-CRM).
-3. **Uit:** één label uit: abonnement vergeten, abonnement vervallen, online ticket niet getoond, ticket te laat gekocht, kortingskaart vergeten, no cash aan boord, tarief aan boord, **andere**, **onzeker**. Plus één zin waarom.
+3. **Uit:** één label uit: abonnement vergeten, abonnement vervallen, online ticket niet getoond, ticket te laat gekocht, kortingskaart vergeten, no cash aan boord, geen geldig vervoersbewijs, **andere**, **onzeker**. Plus één zin waarom.
 4. **Soort AI:** een taalmodel, want er gaat tekst in en er komt een label uit. Wat ik daarna opzoek, is een vaste regel zonder AI.
 5. **Checken:** ik schrijf het juiste label op vóór de tool draait. Twee collega's zouden los van elkaar hetzelfde label kiezen.
 
@@ -16,7 +16,7 @@
 | Ticket te laat gekocht | "Ik kocht mijn ticket net na vertrek" | Tijdstip aankoop vs. vertrek |
 | Kortingskaart vergeten | "Ik had recht op korting, maar kaart niet bij" | Kortingskaart geldig? |
 | No cash aan boord | "Ik kon niet cash betalen aan boord" | (nog in te vullen) |
-| Tarief aan boord | "De treinbegeleider stelde geen tarief aan boord voor en gaf meteen een boete" | (nog in te vullen) |
+| Geen geldig vervoersbewijs | "Ik had geen ticket of abonnement, kan de boete omlaag?" of "Ik moest tarief aan boord betalen, maar vind dat onterecht" | (nog in te vullen) |
 | Andere | App-probleem, dubbele aankoop, terugbetaling, ... | Valt buiten deze Build |
 | Onzeker | Niet duidelijk, of meerdere situaties tegelijk | Ik beslis zelf |
 
