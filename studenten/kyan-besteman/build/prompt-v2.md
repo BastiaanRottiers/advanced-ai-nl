@@ -9,7 +9,7 @@ Wat veranderde t.o.v. v1:
 - Bouwsteen 2: regel "wel of geen vervoersbewijs" en regel "niet kiezen op datum" (tarief aan boord geschrapt vanaf 1 juli 2026).
 - Bouwsteen 2: regel voor vergeten vs. vervallen (gevonden via T02, die in v1 twee keer `onzeker` gaf). Gekozen vanuit het perspectief van de treinbegeleider: wat kon die zien tijdens de controle? Een eerdere uitzondering voor "dezelfde dag verlengd" werd geschrapt.
 - Bouwsteen 3: vier velden erbij in de antwoordvorm (naam, abonnement, online aankoop, datum van de rit).
-- Bouwsteen 4 (voorbeelden): nog leeg, schrijft Kyan zelf.
+- Bouwsteen 4 (voorbeelden): drie voorbeelden, door Kyan geschreven, met labels die niet in T01–T05 staan (abonnement vervallen, kortingskaart vergeten, geen geldig vervoersbewijs). Abonnement en online aankoop zijn `nee` als de reactie over het andere gaat.
 - De brief schrijven valt buiten deze Build (niet meetbaar).
 
 ---
@@ -52,14 +52,47 @@ Regels:
 - Twijfel je tussen twee labels, of mist er info? Kies `onzeker`. Gok niet.
 - Staat een veld niet in de reactie? Schrijf `niet vermeld`.
 
-<!-- Bouwsteen 4: voorbeelden — IN TE VULLEN DOOR KYAN -->
+<!-- Bouwsteen 4: voorbeelden -->
 Voorbeelden:
 
-[VOORBEELD 1: reactie + juist antwoord]
+Voorbeeld 1
 
-[VOORBEELD 2: reactie + juist antwoord]
+Klantenreactie: "Op 2/10/2026 heb ik een trein genomen van Malderen naar Gent, maar volgens de treinbegeleider was mijn treinabonnement vervallen. Dit wist ik niet en hij zei dat ik dezelfde dag deze moest vernieuwen, zodat ik geen boete moet betalen. Dit heb ik gedaan en toch kreeg ik een boete binnen. Kan mijn boeten geannuleerd worden?"
 
-[VOORBEELD 3: reactie + juist antwoord]
+```
+Label: abonnement vervallen
+Naam: niet vermeld
+Abonnement: ja
+Online aankoop: nee
+Datum rit: 2/10/2026
+Waarom: De klant schrijft dat het abonnement volgens de treinbegeleider vervallen was, dus de klant had het abonnement bij maar het was niet geldig.
+```
+
+Voorbeeld 2
+
+Klantenreactie: "Mijn naam is Niels Verbraack en tijdens mijn rit op 12 oktober 2026 ben ik mijn kortingskaart thuis vergeten. Ik heb een online ticket gekocht met korting maar deze werd dus niet goedgekeurd omdat ik geen bewijs had van een kortingskaart. Kan het verschil van de originele ticketprijs en ticketprijs met korting terug overgeschreven worden naar mij?"
+
+```
+Label: kortingskaart vergeten
+Naam: Niels Verbraack
+Abonnement: nee
+Online aankoop: ja
+Datum rit: 12 oktober 2026
+Waarom: De klant schrijft dat de kortingskaart thuis lag, dus de klant had recht op korting maar kon de kaart niet tonen.
+```
+
+Voorbeeld 3
+
+Klantenreactie: "Ik wou mijn ticket kopen voor de treinrit, maar ik had geen verbinding op mijn gsm. Ik heb deze dus niet kunnen kopen tijdens de treinbegeleider langskwam."
+
+```
+Label: geen geldig vervoersbewijs
+Naam: niet vermeld
+Abonnement: nee
+Online aankoop: nee
+Datum rit: niet vermeld
+Waarom: De klant schrijft dat het ticket niet gekocht kon worden door de slechte verbinding.
+```
 
 <!-- Bouwsteen 3: vorm -->
 Antwoord in exact deze vorm, en niets anders:
