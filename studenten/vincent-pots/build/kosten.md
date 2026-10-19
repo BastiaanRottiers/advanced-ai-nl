@@ -30,11 +30,27 @@ Bron: de transcripts van de sessies in de scratchpad-map `meting` (14 oktober 20
 - Vorige cijfers ($0,0003, $0,0042 en $0,0039 per run) komen niet overeen met deze transcripts. Ze zijn vervallen.
 - Jouw deel is niet betrouwbaar te bepalen. De prompt-sessie heeft minder input (19.736) dan "hoi"-sessie 1 (20.057). De cache-writes verschillen per sessie, en die wegen het zwaarst.
 
+## Meting 3: eigen map, 19 oktober 2026
+
+Sessie `070b07d4` (10:19), in `studenten/vincent-pots/`. Prompt v4 en T01 in één bericht, `/model haiku`, één aanroep van het model.
+
+| Onderdeel | Tokens (transcript) |
+|---|---|
+| Input, niet uit cache | 2 |
+| Cache-write | 17.137 |
+| Cache-read | 24.796 |
+| **Totale input** | **41.935** |
+| Output (waarvan denken) | 704 (650) |
+
+- `/cost`: **$0,0044** voor de hele sessie. Het zegt 2,6k input en 1,0k output; het transcript 2 en 704. Totaal input en kost komen overeen.
+- `/context` is niet gelukt. Daarom is de context van deze meting niet gemeten, en is **jouw deel niet bepaald**. De totale input is wel bekend: 41.935 tokens.
+- Waarschijnlijk is de context groter dan in de scratchpad-meting (19.736). Deze sessie laadt `CLAUDE.md`, `AGENTS.md` en `context.md` mee; die sessie niet. Dat is niet gecontroleerd.
+
 ## Volume
 20 runs per maand = 5 dagen per week × 4 weken. Bron: schatting van mijn eigen gebruik (elke werkdag deadlines checken), niet geteld.
 
 ## Nog open
-- Schone meting: `/context` en `/cost` in één nieuwe sessie, zodat context en jouw deel uit dezelfde sessie komen.
+- Context van meting 3 ontbreekt (`/context` is niet gelukt). Zonder die context is jouw deel niet te bepalen.
 - Verklaren waarom `/cost` in de live sessie $0,0042 gaf, terwijl het transcript $0,0021 laat zien.
 - Prijs van Haiku 5.5 op de officiële pagina controleren: platform.claude.com/docs/en/about-claude/pricing.
 - Een ander model met hetzelfde volume doorrekenen (ronde 2, stap 4).
