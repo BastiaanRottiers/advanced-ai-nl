@@ -14,8 +14,8 @@ Tool: haalt opdrachten en deadlines uit de tekst van één Canvas-vakpagina.
 | Uren gewonnen | 3 min per dag · 15 min per week · 60 min (1 u) per maand · **9 u per jaar** | berekend |
 | Uurkost | **€17** | mijn loon bij Deboever Ramen en Deuren |
 | Waarde | 9 u × €17 = **€153 per jaar** | berekend |
-| Kost van de tool | 180 × $0,0039 = $0,70 × 0,90 = **± €0,63 per jaar** | gemeten met `/cost` (zie `kosten.md`) |
-| Netto | €153 − €0,63 = **± €152 per jaar** | berekend |
+| Kost van de tool | 180 × $0,0021 = $0,38 × 0,90 = **± €0,34 per jaar** (bovengrens, incl. context) | transcript van de prompt-sessie (zie `kosten.md`) |
+| Netto | €153 − €0,34 = **± €152,66 per jaar** | berekend |
 
 ## Zwakste cijfer
 De **20 runs per maand**. Als ik de deadlines van de dag ervoor al genoteerd heb, hoef ik de volgende dag niet opnieuw te runnen.
@@ -27,9 +27,9 @@ Bij de helft (10 runs per maand):
 | Runs per jaar | 180 | 90 |
 | Uren gewonnen | 9 u | 4,5 u |
 | Waarde (× €17) | €153 | €76,50 |
-| Kost tool | ± €0,63 | ± €0,32 |
-| **Netto per jaar** | **± €152** | **± €76** |
+| Kost tool | ± €0,34 | ± €0,17 |
+| **Netto per jaar** | **± €152,66** | **± €76,33** |
 
 ## Nog open
 - De 5 min en de 2 min zijn geschat. Proberen te meten met een klok op één echte vakpagina.
-- De kost per run ($0,0039) hangt af van de prijs van Haiku 5.5 en van de tokens van meting 2 (zie `kosten.md`).
+- De kost per run is $0,0021 per sessie uit het transcript. Die bevat de context, dus het is een bovengrens. Mijn eigen deel kan ik niet apart meten (zie `kosten.md`).
