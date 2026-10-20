@@ -11,7 +11,7 @@
 - Kort maar juist, liever dan onnodig lang. Geef het resultaat met een korte uitleg waarom.
 
 ## Wat ik al kan
-- Git: nee, vandaag voor het eerst
+- Git: ongeveer 70% zelfstandig
 - Programmeren: Excel-formules. Vroeger een beetje Java en HTML geprobeerd, niet doorgezet.
 - AI-tools: ChatGPT en Gemini, om dingen op te zoeken, inspiratie op te doen en onduidelijke schoolopdrachten te verhelderen
 
