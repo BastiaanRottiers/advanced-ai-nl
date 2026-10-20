@@ -28,18 +28,20 @@ The cache: Claude Code reported $0.0098 for all 20 runs together, much less than
 
 ## By hand or with the tool
 
+Assumption (version B): later, new reviews arrive in the tool automatically, so finding the review is no longer manual work. This link does not exist yet.
+
 | Link | Value | Source |
 |---|---|---|
 | By hand | Find the review on Booking 40 s · read 9 s · topic 5 s · reply 3 s · pass on 5 s = **62 s** | Did it myself at home |
-| With the tool | Find the review 40 s · run 7 s · check 15 s · pass on 5 s = **67 s** | Run time measured (6.0, 7.3, 7.7 s); check time my estimate |
-| Gain per review | 62 − 67 = **−5 s** | |
+| With the tool | Run 7 s · check 7.5 s · pass on 5 s = **19.5 s** | Run time measured (6.0, 7.3, 7.7 s); check time my estimate |
+| Gain per review | 62 − 19.5 = **42.5 s** | |
 | Volume | 44 per month · 528 per year | Counted, September 2026 |
-| Hours per year | −5 s × 528 = **−0.7 h** | |
-| Hourly cost | **€17.50** | Gross hourly wage, I know it, checked with my brother who works at the hotel |
-| Value | −0.7 × 17.50 = **−€12.83 per year** | |
+| Hours per year | 42.5 s × 528 = **6.23 h** | |
+| Hourly cost | **€17.50** | Gross hourly wage of a receptionist, I know it, checked with my brother who works at the hotel. The real cost for the employer is higher. |
+| Value | 6.23 × 17.50 = **€109.08 per year** | |
 | Tool cost | 528 × €0.0027 = **€1.45 per year** | Measured |
-| Net | **−€14.28 per year** | |
+| Net | **€107.63 per year** | |
 
-Version B (future: reviews arrive in the tool automatically, the 40 s disappear): tool 27 s, gain 35 s, 5.1 h per year, net **€88.39 per year**.
+Weakest number: the 7.5 s check. The tool is right only half the time, so checking may take longer. At 15 s the tool takes 27 s, gains 35 s per review, and the net becomes **€88.39 per year**.
 
-Weakest number: the 15 s check. If it is half (7.5 s), the tool takes 59.5 s, gains 2.5 s per review, and the net becomes **€4.97 per year**.
+Without the automatic link (version A: the 40 s stay, check 15 s), the tool takes 67 s, 5 s more than by hand: net **−€14.28 per year**.
