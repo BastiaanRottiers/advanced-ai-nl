@@ -1,5 +1,5 @@
 ---
-name: context
+name: profiel
 description: Interviewt de student en schrijft studenten/<naam>/context.md, het bestand dat de AI-tool elke sessie leest. Gebruik bij "schrijf mijn context", "update mijn context", of als context.md ontbreekt.
 ---
 
