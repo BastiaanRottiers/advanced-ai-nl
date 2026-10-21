@@ -1,4 +1,4 @@
-# Week 5 — Variatie, caching en modelkeuze
+# Week 5: variatie, caching en modelkeuze
 
 *Krijg ik twee keer hetzelfde antwoord?*
 
@@ -135,7 +135,7 @@ Open daarna twee antwoorden zelf en check ze. Je agent is je beoordelaar: vertro
 **Je tabel**, in `build/foutmarge.md`:
 
 ```markdown
-# Foutmarge — 21 oktober 2026
+# Foutmarge, 21 oktober 2026
 
 Model: <model, met versie>. n = <aantal inputs>, 3 runs per versie. Zelfde inputs voor beide.
 
@@ -328,10 +328,10 @@ De tien vaakste ([Wikipedia: Signs of AI writing](https://en.wikipedia.org/wiki/
 | 6 | Reclametaal | "Een naadloze, baanbrekende oplossing voor elk bedrijf." |
 | 7 | Algemene opener | "In een wereld waar technologie razendsnel evolueert…" |
 | 8 | Vage bron | "Experts zijn het erover eens dat AI de toekomst is." |
-| 9 | Formuleslot | "Kortom: ondanks de uitdagingen biedt AI enorme kansen." |
-| 10 | Chatbotresten | "Laten we eens kijken. Ik hoop dat dit helpt!" (Veel gedachtestreepjes: zwak signaal, geen bewijs.) |
+| 9 | Formuleslot en chatbotresten | "Kortom: AI biedt enorme kansen. Ik hoop dat dit helpt!" |
+| 10 | Het lange streepje — | "De tool is snel — en dat merk je meteen." In het Nederlands schrijft bijna niemand dat streepje. |
 
-Eén AI-isme maakt een tekst niet "AI". Het gedachtestreepje gebruiken mensen ook: het is een zwak signaal, geen bewijs. Het echte probleem is dat de zin niets zegt.
+Eén AI-isme maakt een tekst niet "AI". Het lange streepje (—) gebruiken sommige mensen ook, maar in een Nederlandse studententekst valt het meteen op. Het streepje in de titel van je posts kwam uit ons sjabloon: dat telt niet. Het echte probleem is dat de zin niets zegt.
 
 **Je opdracht voor je post.** Ga terug door je eigen posts van week 1 tot 4. Vind er minstens **5** AI-ismen. Citeer elke zin letterlijk, met de week. Herschrijf elke zin in één gewone zin, met een cijfer of een feit.
 
@@ -345,7 +345,7 @@ Voorbeeld:
 Bestand: `posts/week-05.md`. **300 tot 500 woorden**, de citaten niet meegeteld. Minstens één gemeten cijfer met n.
 
 ```markdown
-# Week 5 — <titel in je eigen woorden>
+# Week 5: <titel in je eigen woorden>
 
 ## Mijn foutmarge
 <Je laatste en je vorige versie, 3 runs elk, zelfde inputs, met het model. Het bereik per versie. Is je claim bevestigd of ingetrokken?>
