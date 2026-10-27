@@ -20,7 +20,7 @@ Een apart werkgeversscenario met €20 bruto × 1,5 = €30 per uur geeft circa 
 
 ## Mijn dashboard
 
-[Mijn publieke dashboard](https://raw.githack.com/BastiaanRottiers/advanced-ai-nl/week-05/studenten/bastiaan-rottiers/build/dashboard.html). Bekijk eerst de overlappende scorebereiken. Mijn volgende gebruik wordt vooral het nalezen van financieel plan en marktonderzoek, ook zonder Canvas-opdracht; daarvoor zijn nieuwe praktijkgevallen nodig.
+[Mijn publieke dashboard](https://raw.githack.com/BastiaanRottiers/advanced-ai-nl/a7aa901a19504753fbc534db8e7dd9a014126b95/studenten/bastiaan-rottiers/build/dashboard.html). Bekijk eerst de overlappende scorebereiken. Mijn volgende gebruik wordt vooral het nalezen van financieel plan en marktonderzoek, ook zonder Canvas-opdracht; daarvoor zijn nieuwe praktijkgevallen nodig.
 
 ## Mijn AI-ismen
 
