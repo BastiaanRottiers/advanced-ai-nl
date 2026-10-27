@@ -1,5 +1,7 @@
 # Modeltest, 27 oktober 2026
 
+Testset: **set v1**, vaste deelset T06–T10 uit de oorspronkelijke tien. De scores hieronder zijn geen set-v2-resultaten.
+
 ## Gok vóór de runs
 
 Mijn gok vóór de modeltest: **C, GPT-6 Astra medium, scoort het best. B, GPT-6 Luna low, is goed genoeg voor mijn eigen gebruik.** Vastgelegd op 27 oktober 2026, vóór de modeltest.

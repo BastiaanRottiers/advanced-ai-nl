@@ -1,5 +1,7 @@
 # Foutmarge, 27 oktober 2026
 
+Testset: **set v1**, vaste deelset T06–T10 uit de oorspronkelijke tien. Deze scorevergelijking blijft apart van de eenmalige controlerun op set v2; de sets hebben verschillende inputs en scores zijn niet rechtstreeks vergelijkbaar.
+
 Model: **GPT-6.1 Sol (`gpt-6.1-sol`)**, effort **medium**. n = **5**: T06, T07, T08, T09 en T10. Drie rondes per versie; iedere input in een nieuwe, aparte sessie. Dezelfde inputs en bijlagen voor beide versies. In totaal 30 antwoorden.
 
 | Versie | Run 1 | Run 2 | Run 3 | Foutmarge (min–max) |

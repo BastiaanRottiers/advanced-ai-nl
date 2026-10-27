@@ -39,4 +39,6 @@ Als een van deze zaken niet in de opgegeven Canvas-bronnen staat, zet de agent `
 
 ## Controle
 
+Eigen foutregel, vastgelegd op 27 oktober 2026: dingen invullen die niet nodig zijn of niet gevraagd zijn, en dingen verzinnen, zijn fout. Dit geldt voor de toekomstige controle-inputs zonder de oude verwachte antwoorden achteraf te wijzigen.
+
 De huidige testset en de week-5-metingen blijven bewaard. Voor de uitbreiding komen nieuwe voorbeelden uit het financieel plan en marktonderzoek. De juiste feiten en de regel voor “juist” worden vóór nieuwe runs vastgelegd op basis van de eigen taak en documenten.
