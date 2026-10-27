@@ -18,7 +18,7 @@ De uitgebreide Canvas-instructie vraagt een uitbreiding naar set v2 en zes postk
 | Kosten | Sol en Luna correct geprijsd; geen Haiku gebruikt. Oude raming behouden, gecorrigeerd in week 5; rekenkoers en cache-aanname benoemd. |
 | Waardeketen | Opnieuw berekend op de eigen tijdschattingen per stap; foutenherstel, werkgeversscenario, scorebereik en zwakste cijfer aanwezig. |
 | Publieke dashboardlink | De branchlink in de post geeft HTTP 200 zonder login; de opgehaalde versie bevat de set-v2-kaart en score 10/20. |
-| Huidige post | Zes koppen, score 10 op 20 (set v2, 1 run; n = 20), Bastiaans reflectie op T19 en 474 woorden exclusief citaten. Binnen de eis van 300–500 woorden. |
+| Huidige post | Zes koppen, score 10 op 20 (set v2, 1 run; n = 20), Bastiaans reflectie op T19 en 481 woorden exclusief citaten. Binnen de eis van 300–500 woorden. |
 | GitHub | Pull request #122 is open en bijgewerkt; de head commit is cda1d1c. De eerdere technische check slaagde op commit 440ed5b; een nieuwe check op de bijgewerkte commit volgt via GitHub. |
 | Canvas | De PR-link moet vóór de deadline op Canvas zijn ingediend. Dat is niet door een gekoppelde Canvas-tool bevestigd. |
 

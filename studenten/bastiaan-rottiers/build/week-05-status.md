@@ -13,7 +13,7 @@
 - Nieuwe tokenmeting en API-equivalente kosten, met behoud van de oude raming. Haiku-correctie niet van toepassing.
 - Waardeketen met herstelduur, scorebereik en gevoeligheid voor de handwerktijd. €20 eigen tijdwaarde en een apart hypothetisch werkgeversscenario van €30.
 - De branchdashboardlink in de post is opgehaald zonder login (HTTP 200); set-v2-kaart en score 10/20 zijn zichtbaar.
-- Post bijgewerkt: zes koppen, vijf letterlijke citaten met feitelijke herschrijvingen en een reflectie op T19; 474 woorden exclusief citaten.
+- Post bijgewerkt: zes koppen, vijf letterlijke citaten met feitelijke herschrijvingen en een reflectie op T19; 481 woorden exclusief citaten.
 - Tijdschattingen per stap verwerkt: lezen 5–10 min, begrijpen/zoeken 20–25 min, plannen minstens 5 min; met 5 min plannen is de rekenmiddenwaarde 35 min. De tooltijd vóór herstel is nu 5 min verwerken + 3 min nakijken = 8 min.
 - Publieke dashboardlink zelf in een privévenster geopend: na de tussenpagina opent het dashboard zonder inloggen.
 
