@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Gemeten scores, modelkosten en geschatte tijdwaarde van een bachelorproefassistent.">
+<title>Bachelorproefassistent · dashboard week 5</title>
+<style>
+:root{color-scheme:light;--ink:#18352f;--muted:#52685f;--paper:#f4f4ed;--card:#fffefa;--line:#d7ded4;--green:#23684c;--amber:#a55a17;--blue:#456f90}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6}main{max-width:1120px;margin:auto;padding:40px 24px 56px}a{color:var(--green);text-underline-offset:3px}a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid #b65e22;outline-offset:4px}.eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:.75rem;font-weight:750;color:var(--green)}h1{font-size:clamp(2.1rem,5vw,3.9rem);line-height:1.08;letter-spacing:-.045em;max-width:850px;margin:14px 0 20px}h2{font-size:1.4rem;line-height:1.3;margin:0 0 12px}h3{font-size:1rem;margin:14px 0 6px}.lead{max-width:760px;font-size:1.08rem;color:var(--muted)}.meta{font-size:.85rem;color:var(--muted);margin:24px 0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card,section{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:26px}.card .number{font-size:2.45rem;font-weight:750;letter-spacing:-.04em;line-height:1.2;margin:10px 0}.label{font-size:.85rem;color:var(--muted);font-weight:650}.fine{font-size:.85rem;color:var(--muted)}.card p:last-child{margin-bottom:0}section{margin-top:22px}.twocol{display:grid;grid-template-columns:1fr 1fr;gap:24px}.note{border-left:4px solid var(--amber);padding:10px 16px;background:#fcf0e1;border-radius:0 10px 10px 0}.badge{display:inline-block;background:#f9e8d3;color:#754010;border-radius:30px;padding:4px 11px;font-size:.8rem;font-weight:700}.scoreline{display:grid;grid-template-columns:48px 1fr 80px;align-items:center;gap:12px;margin:20px 0}.track{height:16px;border-radius:20px;background:#e6ebe3;overflow:hidden;display:flex}.solid{height:100%;background:var(--blue)}.range{height:100%;background:repeating-linear-gradient(45deg,#9ab5c7,#9ab5c7 4px,#d6e3eb 4px,#d6e3eb 8px)}.new .solid{background:var(--green)}.new .range{background:repeating-linear-gradient(45deg,#69a484,#69a484 4px,#c5decc 4px,#c5decc 8px)}.tablewrap{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.93rem}th,td{text-align:left;padding:13px 12px;border-bottom:1px solid var(--line);vertical-align:top}th{font-size:.8rem;color:var(--muted)}td:first-child,th:first-child{padding-left:0}td:last-child,th:last-child{padding-right:0}.nowrap{white-space:nowrap}.picked{background:#eef4ec}.controls{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0}button{background:#fffefa;border:1px solid #9caf9f;border-radius:30px;padding:10px 16px;font:inherit;font-size:.9rem;color:var(--ink);cursor:pointer}button[aria-pressed="true"]{background:var(--ink);color:white;border-color:var(--ink)}.netpanel{background:var(--ink);color:#fffefa;border:0}.netpanel .fine,.netpanel .label{color:#d1ded5}.netpanel .number{font-size:clamp(2.5rem,5vw,4rem);font-weight:750;line-height:1.15;margin:15px 0}.bigpair{display:flex;gap:38px;flex-wrap:wrap;align-items:end}.bigpair p{margin:0}details{margin-top:20px}summary{cursor:pointer;font-weight:650}footer{padding-top:24px;color:var(--muted);font-size:.85rem}.statusrow{display:flex;gap:12px;align-items:center;flex-wrap:wrap}.source{margin-top:18px;border-top:1px solid var(--line);padding-top:12px}.pending{color:var(--amber)}@media(max-width:760px){main{padding:26px 16px 40px}.grid,.twocol{grid-template-columns:1fr}.card,section{padding:21px}.grid{gap:12px}h1{font-size:2.5rem}th,td{padding:11px 9px}.tablewrap table{min-width:590px}.chain table{min-width:0}.chain th:first-child{width:43%}.scoreline{grid-template-columns:32px 1fr 70px;gap:8px}}@media print{body{background:white}main{padding:0}.card,section{break-inside:avoid}button{display:none}details{display:block}.tablewrap{overflow:visible}}
+</style>
+</head>
+<body>
+<main>
+<header>
+<div class="eyebrow">Week 5 · meting van 27 oktober 2026</div>
+<h1>Hoe betrouwbaar is mijn bachelorproefassistent?</h1>
+<p class="lead">De laatste prompt haalt 3 tot 4 juiste antwoorden op 5. De score is hoger dan sommige oude runs, maar de bereiken overlappen. Een algemene verbetering is daardoor nog niet bewezen.</p>
+<p class="meta">Vaste inputs T06–T10 · 3 rondes per promptversie · GPT-6.1 Sol medium · documenttests met bijlagen</p>
+</header>
+<div class="grid" aria-label="Kerncijfers">
+<article class="card"><div class="label">Laatste prompt v7</div><div class="number">3–4<span style="font-size:1.1rem;font-weight:500"> / 5</span></div><p>Runs: 3/5, 3/5 en 4/5.<br>n = 5, drie rondes; samen 10/15 juist.</p></article>
+<article class="card"><div class="label">Verbeterclaim</div><div class="number" style="font-size:1.6rem">Niet bewezen</div><p>Als bewezen verbetering ingetrokken: oud 2–3/5 en nieuw 3–4/5 overlappen bij 3/5.</p></article>
+<article class="card"><div class="label">Sol medium · begroting zonder cache</div><div class="number">€0,032<span style="font-size:1.1rem;font-weight:500"> / taak</span></div><p>Ongeveer €0,26 per maand en €3,08 per jaar bij 8 taken per maand.</p></article>
+</div>
+<section aria-labelledby="variation">
+<h2 id="variation">1. Wat verandert vanzelf?</h2>
+<div class="twocol"><div>
+<div class="scoreline"><strong>v6</strong><div class="track" aria-hidden="true"><div class="solid" style="width:40%"></div><div class="range" style="width:20%"></div></div><strong>2–3 / 5</strong></div>
+<div class="scoreline new"><strong>v7</strong><div class="track" aria-hidden="true"><div class="solid" style="width:60%"></div><div class="range" style="width:20%"></div></div><strong>3–4 / 5</strong></div>
+<p class="fine">De gestreepte strook toont het verschil tussen de laagste en hoogste geobserveerde score. Dit is geen statistisch betrouwbaarheidsinterval.</p>
+</div><div><span class="badge">Claim ingetrokken als bewezen verbetering</span><p>De getoetste claim ging over de statusregel. Bij T10 verschijnt de gewenste eindstatus bij v6 in 1/3 antwoorden en bij v7 in 3/3. Dat resultaat op één input bewijst geen algemene verbetering.</p></div></div>
+<details><summary>Beperkingen die bij deze cijfers horen</summary><ul><li>v6 is gereconstrueerd: de gedocumenteerde v7-statusregel is verwijderd.</li><li>T08 bevat een tegenstrijdigheid tussen input en verwacht antwoord. De bestaande antwoordkolom is aangehouden; deze afwijking is geen zuiver bewijs van een modelfout.</li><li>T10 gebruikt ook de statusvoorwaarde die in week 4 al werd gehanteerd. Zonder die controle overlappen de scorebereiken eveneens.</li><li>De oude effortinstelling is niet bewaard; voor deze vergelijking is medium vastgezet.</li><li>De tijden zijn schattingen. De kwaliteit op nieuwe taken over financieel plan en marktonderzoek is nog niet afzonderlijk getest.</li></ul></details>
+<p class="fine source">Bron: build/foutmarge.md. De verwachte antwoorden zijn tijdens de test niet gewijzigd.</p>
+</section>
+<section aria-labelledby="models">
+<h2 id="models">2. Welk model is het geld waard?</h2>
+<p>De gok vooraf: Astra medium scoort het best; Luna low is goed genoeg. In deze test delen Sol en Astra de eerste plaats. Luna scoort onder het geobserveerde v7-bereik.</p>
+<div class="tablewrap"><table><caption class="fine" style="text-align:left;margin-bottom:8px">Modelvergelijking met dezelfde inputraming van 25.284 tokens voor elke setup. Eén ronde per setup, n = 5.</caption><thead><tr><th>Setup</th><th>Effort</th><th>Score</th><th>Binnen 3–4/5?</th><th>Outputtokens per taak</th><th>Raming per taak</th><th>Per jaar</th></tr></thead><tbody>
+<tr class="picked"><td class="nowrap">A · Sol</td><td>medium</td><td>4/5</td><td>Ja</td><td>347,2</td><td>€0,04864</td><td>€4,67</td></tr>
+<tr><td class="nowrap">B · Luna</td><td>low</td><td>2/5</td><td>Nee</td><td>323,4</td><td>€0,00242</td><td>€0,23</td></tr>
+<tr><td class="nowrap">C · Astra</td><td>medium</td><td>4/5</td><td>Ja</td><td>316,6</td><td>€0,24180</td><td>€23,21</td></tr>
+</tbody></table></div>
+<p><strong>Voorlopig advies: Sol medium.</strong> Astra kost bij deze vaste inputraming ongeveer vijf keer zoveel en haalt dezelfde score. De eigen productievoorkeur is nog niet vastgelegd.</p>
+<p class="fine">Dit zijn GPT-6.1 Sol, GPT-6 Luna en GPT-6 Astra. Het gemiddelde aantal outputtokens is gemeten; de vaste inputraming komt uit de week-4-aanname. Luna verandert model én effort: het afzonderlijke effect van effort is daarmee niet bepaald.</p>
+<details><summary>Waarom staat bovenaan €0,032 en hier €0,049 voor Sol?</summary><p>De tabel hierboven volgt de lesformule met voor alle modellen dezelfde oude inputraming. De begroting en waardeketen gebruiken de werkelijk gemeten gemiddelde input van Sol: 16.111,4 inputtokens en 347,2 outputtokens. Zonder cachekorting geeft dat €0,03212532 per taak. Dit zijn twee verschillende, expliciet benoemde rekenbasissen.</p><p>Bij de waargenomen cacheverdeling was de API-equivalente kost €0,01855476 per Sol-taak. Voor de begroting is geen cachekorting aangenomen. De rekenkoers is $1 = €0,90; dit is een aanname, geen actuele koersmeting. De bedragen zijn API-equivalenten en geen abonnementskosten.</p></details>
+<p class="fine source">Bronnen: build/modellen.md, build/kosten.md en modelmetingen-week-05.csv. Tariefbron: <a href="https://developers.openai.com/api/docs/pricing">OpenAI API-prijzen</a>, geraadpleegd 27 oktober 2026.</p>
+</section>
+<section aria-labelledby="value">
+<h2 id="value">3. Van tijdwinst naar jaarwaarde</h2>
+<p>De tijdschattingen zijn 30 minuten handwerk en 4 minuten draaien plus nakijken. Fouten herstellen komt daar apart bij. Kies een uurwaardescenario om de berekening te bekijken.</p>
+<div class="controls" role="group" aria-label="Uurwaardescenario"><button type="button" id="own" aria-pressed="true">€20 · eigen tijdwaarde</button><button type="button" id="employer" aria-pressed="false">€30 · werkgeversscenario</button></div>
+<p class="fine" id="scenario">€20 is de eigen tijdwaarde uit week 4. Er is geen werkelijk loon of werkgeverskost gemeten.</p>
+<div class="netpanel card" aria-live="polite" aria-atomic="true"><div class="label">Netto jaarwaarde · rekenscenario</div><div class="bigpair"><div><div class="number" id="net">€508,92</div><p class="fine">Bij de gemiddelde score van 10/15</p></div><div><strong id="valueRange" style="font-size:1.35rem">€444,92–€636,92</strong><p class="fine">Bij de laagste en hoogste score</p></div></div></div>
+<div class="tablewrap chain"><table style="margin-top:18px"><thead><tr><th>Schakel</th><th>Waarde en basis</th></tr></thead><tbody>
+<tr><td>Met de hand</td><td>Lezen, begrijpen en bepalen wat nog moet gebeuren: 30 min samen. Tijd per stap: nog niet gemeten.</td></tr>
+<tr><td>Met de tool</td><td>4 min draaien + nakijken; afzonderlijke tijden nog niet gemeten. Herstel: (1 − 10/15) × 30 = 10 min. Samen 14 min.</td></tr>
+<tr><td>Winst per taak</td><td>30 − 14 = 16 min. Bereik: 14–20 min.</td></tr>
+<tr><td>Volume</td><td>0,4 taak per werkdag · 2 per week · 8 per maand · 96 per jaar. Schatting; weergave met 20 werkdagen en 4 weken per maand, 12 maanden per jaar.</td></tr>
+<tr><td>Uren gewonnen</td><td>0,107 uur per werkdag · 0,533 per week · 2,133 per maand · 25,6 per jaar. Jaarbereik: 22,4–32 uur.</td></tr>
+<tr><td>Uurwaarde</td><td id="hourly">€20 per uur, eigen tijdwaarde.</td></tr>
+<tr><td>Jaarwaarde vóór toolkost</td><td id="gross">25,6 × €20 = €512.</td></tr>
+<tr><td>Toolkost aftrekken</td><td>96 × €0,03212532 = €3,08403072 per jaar, zonder cachekorting.</td></tr>
+<tr><td>Netto per jaar</td><td id="netFormula">€512 − €3,08403072 = €508,92.</td></tr>
+</tbody></table></div>
+<div class="note" style="margin-top:22px"><h3 style="margin-top:0">Zwakste cijfer: de geschatte 30 minuten</h3><p>Als het handwerk 15 minuten kost en herstel per fout ook 15 minuten, blijft gemiddeld 6 minuten winst per taak over: 9,6 uur per jaar.</p><p id="weak">Het netto wordt dan €188,92 per jaar (bereik €156,92–€252,92). De daling van €320 is groter dan de €192 tussen het lage en hoge scorescenario bij 30 minuten handwerk.</p></div>
+<p class="fine source">Bron: build/waarde.md. Tijden, volume, uurwaarde en herstelduur zijn aannames; de scores en tokenaantallen zijn gemeten. De rekenscenario’s tonen geschatte tijdwaarde, geen bewezen financiële besparing.</p>
+</section>
+<footer>Deze pagina bevat geen testinputs of persoonsgegevens. Nog niet gemeten: tijden per deelstap, afzonderlijke draai- en nakijktijd, werkelijke herstelduur en een werkelijke werkgeverskost. Uitbreiding naar financieel plan en marktonderzoek vraagt nieuwe praktijkgevallen.</footer>
+</main>
+<script>
+const scenarios={own:{net:'€508,92',range:'€444,92–€636,92',note:'€20 is de eigen tijdwaarde uit week 4. Er is geen werkelijk loon of werkgeverskost gemeten.',hourly:'€20 per uur, eigen tijdwaarde.',gross:'25,6 × €20 = €512.',formula:'€512 − €3,08403072 = €508,92.',weak:'Het netto wordt dan €188,92 per jaar (bereik €156,92–€252,92). De daling van €320 is groter dan de €192 tussen het lage en hoge scorescenario bij 30 minuten handwerk.'},employer:{net:'€764,92',range:'€668,92–€956,92',note:'Apart werkgeversscenario: als het brutoloon €20 is, wordt de kost volgens de lesvuistregel × 1,5 gelijk aan €30. Dit is een loonaanname, geen gemeten werkgeverskost.',hourly:'€30 per uur, apart werkgeversscenario: aanname €20 bruto × 1,5.',gross:'25,6 × €30 = €768.',formula:'€768 − €3,08403072 = €764,92.',weak:'Het netto wordt dan €284,92 per jaar (bereik €236,92–€380,92). De daling van €480 is groter dan de €288 tussen het lage en hoge scorescenario bij 30 minuten handwerk.'}};
+function showScenario(key){const s=scenarios[key];for(const [id,value] of Object.entries({net:s.net,valueRange:s.range,scenario:s.note,hourly:s.hourly,gross:s.gross,netFormula:s.formula,weak:s.weak}))document.getElementById(id).textContent=value;for(const id of ['own','employer'])document.getElementById(id).setAttribute('aria-pressed',String(id===key));}
+document.getElementById('own').addEventListener('click',()=>showScenario('own'));
+document.getElementById('employer').addEventListener('click',()=>showScenario('employer'));
+</script>
+</body>
+</html>
