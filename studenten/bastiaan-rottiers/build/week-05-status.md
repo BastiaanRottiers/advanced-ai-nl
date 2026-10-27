@@ -15,9 +15,10 @@
 - Tijdschattingen per stap verwerkt: lezen 5–10 min, begrijpen/zoeken 20–25 min, plannen minstens 5 min; met 5 min plannen is de rekenmiddenwaarde 35 min. De tooltijd vóór herstel is nu 5 min verwerken + 3 min nakijken = 8 min.
 - Publieke dashboardlink zelf in een privévenster geopend: na de tussenpagina opent het dashboard zonder inloggen.
 
-## Nog afwerken vóór indienen
+## Indiening
 
-- Week 5 indienen met een pull request wanneer daarom wordt gevraagd; daarna de GitHub-check controleren.
+- Week 5 is ingediend via [pull request #122: week-05 — Bastiaan Rottiers](https://github.com/alexandernacho/advanced-ai-nl/pull/122).
+- De automatische controle is te volgen op het tabblad Checks van de pull request. De docent beoordeelt en merget de indiening.
 
 ## Meetbeperkingen voor de verdere Build
 
