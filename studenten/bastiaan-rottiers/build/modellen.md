@@ -52,4 +52,4 @@ Astra scoort even hoog als Sol, niet hoger. Het verschil tussen deze twee setups
 
 De gok dat Astra het best scoort is alleen als gedeelde eerste plaats uitgekomen; de gok dat Luna low goed genoeg is, wordt door deze test niet ondersteund. Eén ronde per setup is geen eigen foutmargetest voor Luna of Astra.
 
-Voorlopig advies op basis van deze test: Sol medium. De eigen productievoorkeur is nog niet vastgelegd. Voor de nieuwe toepassing op financieel plan en marktonderzoek zijn aparte praktijkgevallen nodig; de huidige vergelijking betreft v7 op T06–T10.
+Mijn keuze: **Sol medium**, vastgelegd na de vergelijking op 27 oktober 2026. Sol haalt dezelfde score als Astra tegen een lagere kost; Luna scoort onder het geobserveerde v7-bereik. Voor de nieuwe toepassing op financieel plan en marktonderzoek zijn aparte praktijkgevallen nodig; de huidige vergelijking betreft v7 op T06–T10.
