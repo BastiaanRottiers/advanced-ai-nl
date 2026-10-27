@@ -13,10 +13,10 @@
 - Dashboard lokaal gecontroleerd; publieke branch gepusht. De post verwijst naar vastgelegde dashboardversie a7aa901 om een oudere gecachte branchkopie te vermijden. Zonder login opgehaald: HTTP 200 en overeenkomst met het bijgewerkte lokale bestand. De bijgewerkte bedragen en beide scenarioknoppen zijn offline gecontroleerd.
 - Post gecontroleerd tegen de opdracht: 482 woorden exclusief geciteerde zinnen, vijf koppen, vijf letterlijke citaten met feitelijke herschrijvingen. De bijgewerkte waardeketen gebruikt de eigen verfijnde tijdschattingen.
 - Tijdschattingen per stap verwerkt: lezen 5–10 min, begrijpen/zoeken 20–25 min, plannen minstens 5 min; met 5 min plannen is de rekenmiddenwaarde 35 min. De tooltijd vóór herstel is nu 5 min verwerken + 3 min nakijken = 8 min.
+- Publieke dashboardlink zelf in een privévenster geopend: na de tussenpagina opent het dashboard zonder inloggen.
 
 ## Nog afwerken vóór indienen
 
-- De publieke dashboardlink in een privévenster openen. De geautomatiseerde controle gebruikte geen inloggegevens, maar was geen privévenstercontrole.
 - Week 5 indienen met een pull request wanneer daarom wordt gevraagd; daarna de GitHub-check controleren.
 
 ## Meetbeperkingen voor de verdere Build
