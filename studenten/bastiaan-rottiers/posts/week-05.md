@@ -10,11 +10,13 @@ Mijn gok was dat Astra medium het best scoorde en Luna low goed genoeg was. Eén
 
 ## Mijn value chain, met de foutmarge erin
 
-Handmatig lezen, begrijpen en bepalen wat nog moet gebeuren kost volgens mijn schatting 30 minuten. Draaien en nakijken samen kosten 4 minuten; de losse stappen zijn nog niet gemeten. v7 had gemiddeld 10/15 juiste antwoorden. Met 30 minuten herstel per fout komt er gemiddeld 10 minuten bij: 14 minuten tooltijd, dus 16 minuten winst per taak.
+Lezen schat ik op 5–10 minuten, begrijpen en zoeken op 20–25 minuten, plannen op minstens 5 minuten. Bij 5 minuten plannen is dat 30–40 minuten; ik reken met middenwaarde 35. De tool verwerkt de bestanden in maximaal 5 minuten. Zelf controleren kost ongeveer 3 minuten, mits duidelijk is waar informatie staat.
 
-Bij acht taken per maand zijn dat 96 taken en 25,6 uur per jaar. Aan mijn eigen tijdwaarde van €20 is dat €512. De nieuwe Sol-tokenmeting geeft zonder cachekorting circa €0,032 per taak, of €3,08 per jaar. Netto blijft ongeveer €509 over, met bereik €445–€637.
+v7 had gemiddeld 10/15 juiste antwoorden. Bij 35 minuten herstel per fout komt er gemiddeld 11,67 minuten herstel boven op de 8 minuten draaien en nakijken. Dat geeft 19,67 minuten tooltijd en 15,33 minuten winst per taak.
 
-Een apart werkgeversscenario gebruikt €20 bruto × 1,5 = €30 per uur: netto ongeveer €765, bereik €669–€957. Dit is een loonaanname. Mijn zwakste cijfer blijft de handwerktijd: bij 15 minuten daalt het gemiddelde netto aan €20 tijdwaarde naar €189.
+Acht taken per maand worden 96 taken en 24,53 uur per jaar. Aan mijn eigen tijdwaarde van €20 is dat circa €490,67. Sol kost zonder cachekorting circa €0,032 per taak of €3,08 per jaar. Netto blijft circa €488 over. Bij 35 minuten handwerk geeft de scorevariatie een bereik van €413–€637.
+
+Een apart werkgeversscenario met €20 bruto × 1,5 = €30 per uur geeft circa €733 netto, bereik €621–€957. Dit is een loonaanname. Mijn zwakste cijfer blijft de handwerktijd: halveer 35 naar 17,5 minuten en het gemiddelde netto aan €20 daalt naar €114.
 
 ## Mijn dashboard
 
