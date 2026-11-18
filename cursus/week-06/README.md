@@ -1,6 +1,6 @@
 # Week 6 — Retrieval en zoeken
 
-*Hoe vindt een AI zijn bronnen? En vindt die jou?*
+*Hoe vindt een assistent zijn bronnen, en vindt hij jou?*
 
 Woensdag 18 november, 10:30–13:30.
 
