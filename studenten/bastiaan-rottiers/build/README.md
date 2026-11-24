@@ -17,7 +17,7 @@ De voorbereidingskaart bevat wat de groep moet opleveren, concrete stappen in ee
 
 ## Bronvragen testen (week 6)
 
-De actieve prompt is v8 in `prompt.md`, ook bewaard als `prompt-v8.md`. Voor product- en prijsvragen leest de tool de Wentronic/LAPP-catalogus in `bronnen/wentronic-lapp-emobility-2025.pdf` en noemt hij bij elk antwoord de bronplaats. De catalogus bevat historische gegevens uit 2025.
+De actieve prompt is v8 in `prompt.md`, met een aanpassing voor het bronformaat bij indiening. De geteste pdf-instructies blijven bewaard als `prompt-v8.md`. Voor product- en prijsvragen leest de tool de [tekstextractie van de Wentronic/LAPP-catalogus](bronnen/wentronic-lapp-emobility-2025.md) of de oorspronkelijke pdf via de downloadlink in die tekstbron, en noemt hij bij elk antwoord de bronplaats. De catalogus bevat historische gegevens uit 2025. De brontests zijn uitgevoerd met de pdf; de tekstversie is daarna toegevoegd omdat GitHub binaire documenten weigert. Die tekstvariant is niet opnieuw getest.
 
 1. Bastiaan schrijft vooraf B01–B05 in `test-set-bron.md`, inclusief verwachte antwoorden en vindplaats. B01–B04 zijn beantwoordbaar; B05 niet.
 2. Voer daarna elk geval in een afzonderlijke nieuwe sessie uit met alleen de actieve prompt, de volledige pdf en de vraag van dat geval. Stuur verwachte antwoorden, vindplaatsen en andere testgevallen niet mee.

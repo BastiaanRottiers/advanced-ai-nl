@@ -2,6 +2,8 @@
 
 **Bron:** `build/bronnen/wentronic-lapp-emobility-2025.pdf`
 
+De tests hieronder gebruikten de oorspronkelijke pdf. Bij het indienen is de pdf uit Git gehaald omdat binaire documenten niet zijn toegestaan; het lokale bestand blijft behouden. De [tekstextractie](bronnen/wentronic-lapp-emobility-2025.md) en de oorspronkelijke downloadlink zijn wel opgenomen. Die formaatwijziging verandert de historische testresultaten niet; de tekstvariant is niet opnieuw getest.
+
 **Uitvoering:** ChatGPT, voor B01–B05 telkens een nieuwe sessie (bevestigd door Bastiaan). Model: Terra, zoals door Bastiaan opgegeven. Uitvoeringsdatum oorspronkelijke reeks: 18 november 2026, achteraf bevestigd door Bastiaan.
 
 Het juiste antwoord, en waar het in het document staat, schrijf je vóór de eerste run.

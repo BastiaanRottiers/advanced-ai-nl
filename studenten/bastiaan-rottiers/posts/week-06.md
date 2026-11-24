@@ -66,7 +66,7 @@ Mijn eerste tactiek voor InLine is een onafhankelijke producttest laten uitvoere
 
 ## Mijn tool leest een bron
 
-- Document in `build/bronnen/`: Wentronic/LAPP E-mobility-productcatalogus 2025 (`wentronic-lapp-emobility-2025.pdf`).
+- Document: Wentronic/LAPP E-mobility-productcatalogus 2025. De tests zijn met de oorspronkelijke pdf uitgevoerd. Omdat de repo binaire documenten weigert, staat in `build/bronnen/` de [tekstextractie met oorspronkelijke downloadlink](../build/bronnen/wentronic-lapp-emobility-2025.md). De originele pdf blijft lokaal beschikbaar. De tekstvariant is niet opnieuw getest.
 - Waarom mijn tool dit document nodig heeft: we kunnen de catalogus gebruiken om WATTZAK te vergelijken met de LAPP-opbergtassen op producteigenschappen en prijs. De catalogusprijzen komen uit 2025 en zijn geen bevestigde actuele winkelprijzen.
 - Instructies aangepast in prompt v8: gebruik de catalogus, vermeld de bronplaats en geef aan wanneer informatie ontbreekt.
 - Vijf testgevallen met vooraf vastgelegde verwachte antwoorden staan in `build/test-set-bron.md`, opgesteld met hulp van de assistent. Ik voerde elk geval op 18 november 2026 uit in een nieuwe ChatGPT-sessie met Terra.

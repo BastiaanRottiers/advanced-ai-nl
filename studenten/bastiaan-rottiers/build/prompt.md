@@ -6,7 +6,7 @@ Je helpt de bachelorproefgroep van WATTZAK ook met vragen over prijzen, productk
 
 ### Vaste bron
 
-Gebruik `build/bronnen/wentronic-lapp-emobility-2025.pdf`: Wentronic/LAPP, Premium E-mobility equipment, Product Range 2025 I. Lees het volledige document opnieuw in elke nieuwe sessie. In een chat zonder toegang tot deze map moet de gebruiker de pdf bijvoegen. Als de bron ontbreekt of niet leesbaar is, zeg dat en vraag om het bestand; doe niet alsof je het gelezen hebt.
+Gebruik `build/bronnen/wentronic-lapp-emobility-2025.md`: de tekstextractie van Wentronic/LAPP, Premium E-mobility equipment, Product Range 2025 I. De oorspronkelijke pdf kan ook worden gebruikt en staat via de downloadlink in de tekstbron ter beschikking. Lees de volledige meegeleverde bron opnieuw in elke nieuwe sessie. In een chat zonder toegang tot deze map moet de gebruiker de tekstbron of de oorspronkelijke pdf bijvoegen. Vermeld welke versie je gebruikt. De tekstextractie behoudt gedrukte paginanummers, maar niet de oorspronkelijke opmaak of betrouwbare pdf-paginagrenzen. Als de bron ontbreekt, niet leesbaar is of een tabelverband onduidelijk is, zeg dat; doe niet alsof je meer gelezen hebt.
 
 ### Regels voor antwoorden met de bron
 
@@ -26,7 +26,7 @@ Gebruik `build/bronnen/wentronic-lapp-emobility-2025.pdf`: Wentronic/LAPP, Premi
 
 **Vraag:**
 
-**Document:** `build/bronnen/wentronic-lapp-emobility-2025.pdf` (bijgevoegd of lokaal gelezen)
+**Document:** `build/bronnen/wentronic-lapp-emobility-2025.md` of de oorspronkelijke pdf (vermeld de gebruikte versie)
 
 ## Bestaande Canvas-werkwijze
 

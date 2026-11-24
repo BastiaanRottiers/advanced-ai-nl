@@ -2,7 +2,7 @@
 
 ## Wat je gebruikt
 
-- Bron: [Wentronic/LAPP-catalogus 2025](../bronnen/wentronic-lapp-emobility-2025.pdf).
+- Bron voor de oorspronkelijke tests: [Wentronic/LAPP-catalogus 2025 — originele pdf downloaden](https://www.wentronic.com/assets/content/downloads/catalogs/WENTRONIC-LAPP-e-Mobility-Katalog-2025_EN-4YCpBFh.pdf). De pdf blijft ook lokaal beschikbaar, maar wordt niet in Git opgenomen. De [tekstextractie](../bronnen/wentronic-lapp-emobility-2025.md) staat wel in de repo. De plakteksten hieronder behouden de pdf-instructies die tijdens de tests gebruikt zijn; de tekstvariant is niet opnieuw getest.
 - Vijf plakteksten, elk met de actieve prompt v8 en precies één vraag:
   - [B01](B01.md)
   - [B02](B02.md)
