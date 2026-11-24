@@ -2,3 +2,7 @@
 Bachelorproef/
 Git-*.exe
 build/week-05-lokaal/
+build/week-06-lokaal/
+
+# Openbare documentbron voor de bronopdracht van week 6.
+!build/bronnen/wentronic-lapp-emobility-2025.pdf
